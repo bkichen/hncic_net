@@ -1,0 +1,73 @@
+/* = 全局
+-------------------------------------------------------------- */
+body,h1,h2,h3,h4,h5,h6,p,form,ul,ol,li,input,select,label,dl,dt,dd{margin:0;padding:0;font-family:"宋体";font-size:12px;color:#4a4a4a;-webkit-text-size-adjust:none;}
+input,select,label{vertical-align:middle;font-size:12px;}
+ul,ol,li{list-style:none;}
+img{border:0;display:block;float:left;}
+.clear{clear:both;height:0;overflow:hidden;}
+a{color:#4a4a4a;text-decoration:none;outline:none;}
+a:hover{color:red;}
+body{ background:#f9fafc;background-position:top;}
+.clear{clear:both;}
+.search-submit {
+	cursor:pointer;
+	width:68px;
+	height:22px;
+	line-height:22px;
+	font-size:0px;
+	color:#fafafa;
+	border:0px;
+	background:url(../images/search-bt.gif) no-repeat;
+	margin: 28px 0 2px;
+}
+/* = 整体布局
+-------------------------------------------------------------- */
+.focusBtn, .focusBullets a{ display:block; background-image:url(../images/script.png); background-repeat:no-repeat;}
+.focusMain{ width:468px; position:relative; float:left;margin-top:24px;}
+.focusArea{ width:468px; margin:0 auto 15px; position:relative; overflow:hidden;}
+.focusCon{ width:468px; position:absolute; overflow:hidden;}
+.focusCon .item{ margin:0 4px; padding:1px; border:1px solid #666666; background:#DDDEDE; _display:inline;}
+.focusCon .item img{ display:block;}
+.focusCon .title{ height:26px; position:absolute; left:1px; background:#000; opacity:.8; filter:Alpha(opacity=80); line-height:26px; font-size:14px; font-weight:400; overflow: hidden;}
+.focusCon .title a{ display:block; padding:0 10px; color:#FFF; position:relative;}
+.focusBullets{ height:7px; font-size:0; line-height:0; text-align:center;}
+.focusBullets a{ display:inline-block; width:7px; height:7px; margin:0 4px; background-position:0 -50px; _background:none; font-size:0; zoom:1; cursor:pointer; overflow:hidden;}
+.focusBullets a:hover, .focusBullets .current{ background-position:-10px -50px;}
+.focusPrev, .focusNext{ display:block; width:24px; height:49px; position:absolute; top:50%; margin-top:-25px; cursor:pointer;}
+.focusPrev{z-index:999;left:14px; background-position:0 0; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/ie6_al.png");}
+.focusNext{z-index:999;right:14px; background-position:-30px 0; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/ie6_ar.png");}
+
+/* = 主体
+-------------------------------------------------------------- */
+.focusMain { height:97px;}
+.focusArea{ height:97px;}
+.focusCon{ height:97px;}
+.focusCon .item{ float:left; width:144px; position:relative;}
+.focusCon .item img{ width:144px; height:95px; }
+.focusCon .title{ width:186px; bottom:1px;}
+
+.border{
+	width:1000px;
+	height:276px;
+}
+
+.biaot{
+	margin:16px 4px 0 4px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

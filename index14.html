@@ -1,0 +1,792 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>基础建设_海南建设信息网</title>
+<meta name="keywords" content="基础建设新闻报道, 基础建设城市园林, 基础建设公路铁路, 基础建设机场建设, 基础建设桥梁隧道,基础建设港口码头, 基">
+<meta name="description" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<link href="templets/default/css/infrastructure.css" rel="stylesheet">
+<script src="templets/default/js/slideshow.js" type="text/javascript"></script>
+<script type="text/javascript" src="templets/default/js/alixixi_jquery.min.js"></script>
+<script type="text/javascript" src="templets/default/js/Ublue-jQueryTabs-1.1.js"></script>
+<script src="templets/default/js/foucs.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+	$(".tabs").UblueTabs(); //默认调用方法
+
+	$(".custom").UblueTabs({ //自定义选项卡区域
+	tabsTit:"customTit", //自定义标签区域
+	tabsTab:"customTab", //自定义标签
+	tabsCon:"customCon", //自定义内容区域
+	tabsList:"customList", //自定义内容列表
+	tabsHover:"customHover", //自定义鼠标点击后样式
+	eventType:"click" //鼠标经过标签切换内容 -- 此处不写则默认为hover事件 当然也可以把这里的click改成hover
+	});
+});
+</script>
+</head>
+<body>
+
+	﻿<script>
+function show(){
+var date = new Date(); //日期对象
+var now = "";
+now = date.getFullYear()+"年"; //读英文就行了
+now = now + (date.getMonth()+1)+"月"; //取月的时候取的是当前月-1如果想取当前月+1就可以了
+now = now + date.getDate()+"日";
+now = now + date.getHours()+"时";
+now = now + date.getMinutes()+"分";
+now = now + date.getSeconds()+"秒";
+document.getElementById("nowDiv").innerHTML = now; //div的html是now这个字符串 
+setTimeout("show()",1000); //设置过1000毫秒就是1秒，调用show方法
+}
+</script>
+<div class="s-wrap">
+    	<div class="s-top">	
+            <div class="sq-mains">
+                <p class="s-p1">欢迎光临海南建设信息网！</p>
+                <form>
+				<table width="600" border="0" cellspacing="0" cellpadding="0" height='28px'>
+					<tr>
+					<td height="30" width="450">
+					<iframe width="450" scrolling="no" height="15" frameborder="0" allowtransparency="true" src="javascript:;"></iframe>
+					</td>
+					<td height="30">
+					<span id="localtime" style="margin-left:20px;"></span>
+					<script type="text/javascript">
+					function showLocale(objD)
+					{
+						var str,colorhead,colorfoot;
+						var yy = objD.getYear();
+						if(yy<1900) yy = yy+1900;
+						var MM = objD.getMonth()+1;
+						if(MM<10) MM = '0' + MM;
+						var dd = objD.getDate();
+						if(dd<10) dd = '0' + dd;
+						var hh = objD.getHours();
+						if(hh<10) hh = '0' + hh;
+						var mm = objD.getMinutes();
+						if(mm<10) mm = '0' + mm;
+						var ss = objD.getSeconds();
+						if(ss<10) ss = '0' + ss;
+						var ww = objD.getDay();
+						if  ( ww==0 )  colorhead="<font color=\"#FF0000\">";
+						if  ( ww > 0 && ww < 6 )  colorhead="<font color=\"#373737\">";
+						if  ( ww==6 )  colorhead="<font color=\"#008000\">";
+						if  (ww==0)  ww="星期日";
+						if  (ww==1)  ww="星期一";
+						if  (ww==2)  ww="星期二";
+						if  (ww==3)  ww="星期三";
+						if  (ww==4)  ww="星期四";
+						if  (ww==5)  ww="星期五";
+						if  (ww==6)  ww="星期六";
+						colorfoot="</font>"
+						str = colorhead + yy + "-" + MM + "-" + dd + " " + hh + ":" + mm + ":" + ss + "  " + colorfoot;
+						return(str);
+					}
+					function tick()
+					{
+						var today;
+						today = new Date();
+						document.getElementById("localtime").innerHTML = showLocale(today);
+						window.setTimeout("tick()", 1000);
+					}
+					tick();
+					</script>
+					</td>
+					</tr>
+				</table>
+                </form>
+                <p class="s-p2"><a href="" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.chinajsxx.com');">设为首页</a>&nbsp;&nbsp; <a href="javascript:window.external.AddFavorite('http://www.chinajsxx.com','海南建设信息网')">加入收藏</a></p>
+            </div>
+        </div>
+        <div class="s-logos">
+        	<a href="index.html" target="_blank"><img src="templets/default/images/logo.jpg" class="logo"></a>
+            <div class="logo-right">
+			 <form name="formsearch" action="http://www.chinajsxx.com/plus/search.php">
+                <div class="top-left">
+					<div style='height:60px;'>
+					<input type="hidden" name="kwtype" value="0">
+					<input name="q" type="text" class="forms" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}" onblur="if(this.value==''){this.value='在这里搜索...';}">
+					<button type="submit" class="search-submit">搜索</button>
+					</div>
+                    <p class="s-psh"><span>热门搜索：</span> <a href='plus/search-0_E68B9BE6A087E68A95E6A08.html' target="_blank">招标投标</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">城乡规划</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">工程建设</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">工程机械</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">房地产</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">建筑信息化</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">建筑电气</a> </p>
+                </div>
+			</form>
+                <img src="templets/default/images/phones.jpg" class="phones">
+                <div class="logo-right-botm2">
+               	 	 <marquee scrolldelay="100"><a target="_blank" href="55968.html">新纪录！中国重汽年产销商用车突破50万辆</a>&nbsp;&nbsp;
+<a target="_blank" href="55948.html">“十四五”大展宏图：潍柴动力披露再融资方案</a>&nbsp;&nbsp;
+</marquee>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+        	<div class="nav-main">
+            	<a href="index.html"><img src="templets/default/images/nav-sy.jpg" class="sy" title="海南建设信息网"></a>
+                 <ul class="borders">
+                	<li class="te"><a href="index1.html">新闻</a></li>
+                	<li><a href="zhengcefagui/index.html">政策法规</a></li>
+                	<li><a href="index2.html">城乡规划</a></li>
+                	<li><a href="index3.html">勘察设计</a></li>
+                	<li><a href="index4.html">招标投标</a></li>
+                	<li><a href="index5.html" class="lettes">工程建设</a></li>
+                	<li><a href="index6.html">工程机械</a></li>
+                	<li><a href="index7.html">房 地 产</a></li>
+                	<li><a href="index8.html">建筑部品</a></li>
+                	<li><a href="index9.html">装饰·装修</a></li>
+                	<li><a href="index10.html">合作中心</a></li>
+                </ul>
+                <ul class="borders bord">
+                	<li class="te"><a href="index11.html">图库</a></li>
+                	<li><a href="index12.html">中国城镇</a></li>
+                	<li><a href="index13.html">环保科技</a></li>
+                	<li><a href="">基础建设</a></li>
+                	<li><a href="index15.html">建筑电气</a></li>
+                	<li><a href="index16.html">建筑信息化</a></li>
+                	<li><a href="index17.html">专家论道</a></li>
+                	<li><a href="index18.html">名企精英</a></li>
+                	<li><a href="index19.html">热点话题</a></li>
+                	<li><a href="index20.html">质量·安全</a></li>
+                	<li><a href="lxwm/index.html">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="pw-main">
+   		<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2278' language='javascript'></script>
+        <div class="clear"></div>
+ 		<h3 class="list-h3sz"><img src="templets/default/images/lh3-bj.jpg">首页>基础建设</h3>
+        
+                <div class="logo-right-botm logo-right-botmd">
+               	 	 <marquee scrolldelay="100"><a target="_blank" href="javascript:;">渝黔高速公路扩能两合江特大桥左幅连续刚构顺利合龙</a>&nbsp;&nbsp;
+<a target="_blank" href="javascript:;">中交二航局 | 鏖战六载，打通“大小上海”的经济动脉</a>&nbsp;&nbsp;
+</marquee>
+                </div>
+        
+        <div class="main1">
+        
+            <div class="mod_focus_show" id="divimgplay">
+                <ul class="mod_focus_pic" id="divimginfog_imgPlayer">
+				<li><a target="_blank" href="javascript:;"><img src="/uploads/allimg/201223/1-201223111T3242.jpg" alt="" width="634" height="330"></a></li>
+<li><a target="_blank" href="javascript:;"><img src="/uploads/allimg/201218/1-20121PK010S4.jpg" alt="" width="634" height="330"></a></li>
+<li><a target="_blank" href="javascript:;"><img src="/uploads/allimg/201215/1-2012151G500936.jpg" alt="" width="634" height="330"></a></li>
+<li><a target="_blank" href="javascript:;"><img src="/uploads/allimg/201211/1-20121111401V27.jpg" alt="" width="634" height="330"></a></li>
+<li><a target="_blank" href="javascript:;"><img src="/uploads/allimg/201207/1-20120G00126435.jpg" alt="" width="634" height="330"></a></li>
+
+                
+                </ul>
+                <ul class="mod_focus_title" id="ptitleg_imgPlayer">
+                    <li class="current">
+                        <h3><a href="#" target="_blank"></a></h3>
+                        <p></p>
+                    </li>
+                </ul>
+                <ul class="mod_focus_list" id="divpageinfog_imgPlayer">
+				<li><a href="javascript:;" target="_blank">
+                        <img src="/uploads/allimg/201223/1-201223111T3242.jpg" alt="我国高铁高速公路里程均居世界第一" width="110" height="60"><span class="border"></span><span class="mask"></span></a>
+                    </li>
+<li><a href="javascript:;" target="_blank">
+                        <img src="/uploads/allimg/201218/1-20121PK010S4.jpg" alt="中巴经济走廊最大交通基础设施项目正式移交" width="110" height="60"><span class="border"></span><span class="mask"></span></a>
+                    </li>
+<li><a href="javascript:;" target="_blank">
+                        <img src="/uploads/allimg/201215/1-2012151G500936.jpg" alt="南宁至玉林高速铁路开始架梁" width="110" height="60"><span class="border"></span><span class="mask"></span></a>
+                    </li>
+<li><a href="javascript:;" target="_blank">
+                        <img src="/uploads/allimg/201211/1-20121111401V27.jpg" alt="徐连高铁开始联调联试" width="110" height="60"><span class="border"></span><span class="mask"></span></a>
+                    </li>
+<li><a href="javascript:;" target="_blank">
+                        <img src="/uploads/allimg/201207/1-20120G00126435.jpg" alt="山东省最大互通立交正式通车" width="110" height="60"><span class="border"></span><span class="mask"></span></a>
+                    </li>
+
+                
+                </ul>
+            </div>
+            <script type="text/javascript">
+                foucsbox(2500);
+            </script>
+        </div>
+		<div class="s-xin">
+			<h3 class="s-title"><a target="_blank" href="javascript:;">京港高铁合肥至安庆段即将开通</a></h3>
+            <p>京港高速铁路合肥至安庆段将于12月22日开通运营，合肥至安庆最快1小时13分可达。<a href="javascript:;">更多>></a></p>
+
+            <img src="templets/default/images/s-xu.jpg" class="s-fen">
+            <div class="clear"></div>
+            <ul class="s-xins">
+                <li><span>12-23</span>·<a target="_blank" href="javascript:;">我国高铁高速公路里程均居世界第一...</a></li>
+<li><span>12-22</span>·<a target="_blank" href="javascript:;">中国复兴号系列动车组持续领跑世界...</a></li>
+<li><span>12-18</span>·<a target="_blank" href="javascript:;">中巴经济走廊最大交通基础设施项目正...</a></li>
+<li><span>12-16</span>·<a target="_blank" href="javascript:;">南宁至玉林高速铁路开始架梁...</a></li>
+<li><span>12-15</span>·<a target="_blank" href="javascript:;">协同发展!中铁十六局集团曹妃甸重工...</a></li>
+<li><span>12-13</span>·<a target="_blank" href="javascript:;">世界首座高铁悬索桥建成投用...</a></li>
+
+                <li class="morea"><a href="javascript:;">了解更多>></a></li>
+            </ul>
+            <script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2279' language='javascript'></script>
+        </div>
+        <div class="s-mian1-l">
+            <h3 class="s-titles"><a target="_blank" href='javascript:;'>投资规划</a></h3>
+            <ul class="s-uls">
+              <li>·<a target="_blank" href="javascript:;">住建部、体育总局部署全面推进城市社区足球场...</a></li>
+<li>·<a target="_blank" href="javascript:;">国际中转港航线框架初步形成...</a></li>
+<li>·<a target="_blank" href="javascript:;">长三角铁路计划增加投资50亿 全年计划投资90...</a></li>
+<li>·<a target="_blank" href="javascript:;">世界最大反拱型水垫塘在白鹤滩电站完工...</a></li>
+<li>·<a target="_blank" href="javascript:;">2020年，豫陕2省重点公路项目已出炉...</a></li>
+<li>·<a target="_blank" href="javascript:;">多地加快推进重大投资项目建设“新基建”关注...</a></li>
+<li>·<a target="_blank" href="javascript:;">引黄济青改扩建工程计划2020年底全面完成...</a></li>
+<li>·<a target="_blank" href="javascript:;">聚焦数字化 推进建筑强省建设...</a></li>
+
+            </ul>
+        </div>
+        <img src="templets/default/images/fenge.jpg" class="fenge">
+        <div class="s-mian1-c">
+
+
+                <script type="text/javascript">
+                $(function(){
+                    $(".tabMenu li").each(function(index){
+                        $(this).mouseover(function(){
+                            $(".tabContent").addClass("hid")//添加样式
+                            $(".tabContent:eq("+index+")").removeClass("hid")//清除样式
+                            $(".tabMenu li").removeClass("hover")//清除样式
+                            $(this).addClass("hover")//添加样式
+                        })
+                    })
+                })
+                </script>
+                <div class="tab">
+                    <h3 class="xiao-tiotasdg ">动态</h3>
+                    <ul class="tabMenu">
+                        <li class="hover"><a target="_blank" href='javascript:;'>国内</a></li>
+                        <li><a target="_blank" href='javascript:;'>国外</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div class="tabContent">
+                        <ul class="s-uls s-ulskh">
+							<li><span>12-01</span>·<a target="_blank" href="javascript:;">高寒高铁牡佳高铁全线铺轨贯通...</a></li>
+<li><span>11-02</span>·<a target="_blank" href="javascript:;">广东茂名水东湾跨海大桥贯通...</a></li>
+<li><span>10-20</span>·<a target="_blank" href="javascript:;">武夷山轻轨项目部与业主开展篮球友谊赛...</a></li>
+<li><span>09-28</span>·<a target="_blank" href="javascript:;">京哈高速长春至拉林河段改扩建项目建成...</a></li>
+<li><span>07-14</span>·<a target="_blank" href="javascript:;">山东最大互通立交桥梁工程主体完工...</a></li>
+<li><span>06-12</span>·<a target="_blank" href="javascript:;">莆炎高速YA3项目部举行抗洪抢险应急演练...</a></li>
+<li><span>05-09</span>·<a target="_blank" href="javascript:;">南京和燕路过江隧道南段右线开始穿越长...</a></li>
+<li><span>04-20</span>·<a target="_blank" href="javascript:;">中铁十六局五公司海语昕居项目继续推进...</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="tabContent hid">
+                        <ul class="s-uls s-ulskh">
+                          <li><span>12-24</span>·<a target="_blank" href="javascript:;">中国土木：尼日利亚拉伊铁路主线载客试...</a></li>
+<li><span>12-18</span>·<a target="_blank" href="javascript:;">中国十九冶承建印尼镍铁项目顺利完成...</a></li>
+<li><span>12-18</span>·<a target="_blank" href="javascript:;">中国能建葛洲坝三峡建工承建华为安哥拉...</a></li>
+<li><span>11-27</span>·<a target="_blank" href="javascript:;">中铁八局三公司承建的丹巴县梅龙沟灾后...</a></li>
+<li><span>11-12</span>·<a target="_blank" href="javascript:;">中国电建市政公司安哥拉万博供水二期项...</a></li>
+<li><span>10-26</span>·<a target="_blank" href="javascript:;">中企承建改造的尼日利亚中线铁路开通运...</a></li>
+<li><span>09-24</span>·<a target="_blank" href="javascript:;">中交二航局参建的全球最大客货滚装码头...</a></li>
+<li><span>08-25</span>·<a target="_blank" href="javascript:;">海外热点 | 加纳滨海大道项目改造工程开...</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+
+        </div>
+        <img src="templets/default/images/fenge.jpg" class="fenge">
+        <div class="main4">
+            <h3 class="s-titles"><a target="_blank" href='javascript:;'>招标公告</a></h3>
+             <ul class="s-uls s-uls1">
+                <li><span>03-20</span>·<a target="_blank" href="javascript:;">基建投资还有较大增长空间...</a></li>
+<li><span>01-08</span>·<a target="_blank" href="javascript:;">国家发改委近一个月批复基建投资...</a></li>
+<li><span>03-09</span>·<a target="_blank" href="javascript:;">荣昌县清升镇中心小学新建教学综...</a></li>
+<li><span>03-09</span>·<a target="_blank" href="javascript:;">宁波市东部新城生态走廊二期工程...</a></li>
+<li><span>02-04</span>·<a target="_blank" href="javascript:;">唐山勒泰城项目地坪漆工程招标报...</a></li>
+<li><span>02-04</span>·<a target="_blank" href="javascript:;">河北省霸州市和泓嘉苑商住工程施...</a></li>
+<li><span>02-04</span>·<a target="_blank" href="javascript:;">洮南市元润粮油有限责任公司粮食...</a></li>
+<li><span>02-04</span>·<a target="_blank" href="javascript:;">匡堰镇倡隆村中心公园建设工程施...</a></li>
+
+            </ul>
+        </div>
+   		
+		<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2280' language='javascript'></script>
+		
+        <div class="main5">
+        
+  			<div class="tabs">
+            <ul class="tabsTit">
+                <h3 class="titlescvb"><img src="templets/default/images/pw-sdfg.jpg"></h3>
+                <li class="tabsTab tabsHover"><a target="_blank" href='javascript:;'>公路铁路</a></li>
+                <li class="tabsTab"><a target="_blank" href='javascript:;'>机场建设</a></li>
+                <li class="tabsTab"><a target="_blank" href='javascript:;'>港口码头</a></li>
+                <li class="tabsTab"><a target="_blank" href='javascript:;'>桥梁隧道</a></li>
+            </ul>
+            <ul class="tabsCon">
+                <li class="tabsList">
+					<dl class="mainsdf">
+                       	<dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/201226/1-2012261234245V.jpg" width="268" height="162"></a></dt>
+                        <dd>北京至雄安新区城际铁路(以下简称京雄城际铁路)大兴机场至雄安新区段将于12月27日开通运营，京雄城际铁路实现全线贯通，<a href="javascript:;">更多>></a></dd>
+                    </dl>
+
+                     <ul class="s-uls s-uls1dfg">
+						<h3><a target="_blank" href="javascript:;">合肥供电段对接触网重点部位进行</a></h3>
+                        <p><a target="_blank" href="javascript:;">为提升供电设备检修质量，合肥供电段对接触网</a></p>
+
+                        <div class="clear"></div>
+                        <li>·<a target="_blank" href="javascript:;">京沪高速改扩建项目跑出“京沪加速度”...</a></li>
+<li>·<a target="_blank" href="javascript:;">培养多面手 畅通成昆线...</a></li>
+<li>·<a target="_blank" href="javascript:;">铁路职工对客车进行防寒整备...</a></li>
+<li>·<a target="_blank" href="javascript:;">清远磁浮轨排铺设正式“拉开帷幕”...</a></li>
+<li>·<a target="_blank" href="javascript:;">中老铁路万米长隧多吉隧道贯通...</a></li>
+<li>·<a target="_blank" href="javascript:;">全球最佳，中国铁建再获“工程界奥斯卡”奖！...</a></li>
+<li>·<a target="_blank" href="javascript:;">重庆铁路建设晒“半年成绩单”...</a></li>
+<li>·<a target="_blank" href="javascript:;">中国首个出口伊斯坦布尔地铁列车“云下线”...</a></li>
+
+                    </ul>
+                </li>
+                <li class="tabsList" style='display: none;'>
+                   	<dl class="mainsdf">
+                       	<dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/200228/1-20022Q01923224.jpg" width="268" height="162"></a></dt>
+                        <dd>近日，中交二航局负责土建施工的马尔代夫维拉纳国际机场扩建项目第一层首块楼板浇筑完成，标志着该项目正式开始上部结<a href="javascript:;">更多>></a></dd>
+                    </dl>
+
+                     <ul class="s-uls s-uls1dfg">
+                     	<h3><a target="_blank" href="javascript:;">石家庄机场空管改扩建工程项目宿</a></h3>
+                        <p><a target="_blank" href="javascript:;">【建设行业.报道】12月11日，集团公司石家庄机场</a></p>
+
+                        <div class="clear"></div>
+                        <li>·<a target="_blank" href="javascript:;">【热点新闻】大兴机场西塔台预计今年12月完成塔...</a></li>
+<li>·<a target="_blank" href="javascript:;">北京大兴国际机场配套交通路网建设规划出炉...</a></li>
+<li>·<a target="_blank" href="javascript:;">雨中的萧山机场...</a></li>
+<li>·<a target="_blank" href="javascript:;">中国“千万级”机场达到32个...</a></li>
+<li>·<a target="_blank" href="javascript:;">西部建设快讯——强弱帮扶，共同进步...</a></li>
+<li>·<a target="_blank" href="javascript:;">杭州萧山国际机场三期配套项目首根桩基浇筑完...</a></li>
+<li>·<a target="_blank" href="javascript:;">衡阳市委书记、市人大常委会主任周农调研二环...</a></li>
+<li>·<a target="_blank" href="javascript:;">淮安涟水机场航空口岸对外开放通过国家验收...</a></li>
+
+                    </ul>
+                </li>
+                <li class="tabsList" style='display: none;'>
+                   	<dl class="mainsdf">
+                       	<dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/201220/1-2012201F94X34.jpg" width="268" height="162"></a></dt>
+                        <dd>12月19日，京杭大运河上的江苏宿迁港，船舶正在进行集装箱转运、货物装卸，一片繁忙景象。作为当地融入沿海开放的重要<a href="javascript:;">更多>></a></dd>
+                    </dl>
+
+                     <ul class="s-uls s-uls1dfg">
+                     	<h3><a target="_blank" href="javascript:;">振华重工为美国客户造低姿态岸桥</a></h3>
+                        <p><a target="_blank" href="javascript:;">近日，汽笛声鸣，江水滔滔，“振华25”轮缓缓驶</a></p>
+
+                        <div class="clear"></div>
+                        <li>·<a target="_blank" href="javascript:;">中东海湾地区在建最大干船坞开挖完成...</a></li>
+<li>·<a target="_blank" href="javascript:;">“赣江第一闸”项目的智慧化升级...</a></li>
+<li>·<a target="_blank" href="javascript:;">天津港新增 “一带一路”航线...</a></li>
+<li>·<a target="_blank" href="javascript:;">国内首个深水海域四桩导管架基础安装完成...</a></li>
+<li>·<a target="_blank" href="javascript:;">世界自动化装卸效率最高的集装箱码头通过竣工...</a></li>
+<li>·<a target="_blank" href="javascript:;">中交一航局承建 | 全国最大石化港口全面建成投...</a></li>
+<li>·<a target="_blank" href="javascript:;">世界最大集装箱船在青岛港开启首航...</a></li>
+<li>·<a target="_blank" href="javascript:;">世界首艘沉管浮运安装一体船在深中通道项目完...</a></li>
+
+                    </ul>
+                </li>
+                <li class="tabsList" style='display: none;'>
+                   	<dl class="mainsdf">
+                       	<dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/201229/1-2012291Q01H63.jpg" width="268" height="162"></a></dt>
+                        <dd>12月26日，一列动车组行驶在中国首座公铁两用跨海大桥——平潭海峡公铁大桥上。当天，福平铁路开通运营，平潭海峡公铁<a href="javascript:;">更多>></a></dd>
+                    </dl>
+
+                     <ul class="s-uls s-uls1dfg">
+                     	<h3><a target="_blank" href="javascript:;">石黔高速郁江河特大桥右幅主跨合</a></h3>
+                        <p><a target="_blank" href="javascript:;">近日，石(柱)黔(江)高速控制性工程——郁江河特</a></p>
+
+                        <div class="clear"></div>
+                        <li>·<a target="_blank" href="javascript:;">欧维姆装备连续中标三个项目 金额达1亿元...</a></li>
+<li>·<a target="_blank" href="javascript:;">我国最大水深海底管线铺设项目完工...</a></li>
+<li>·<a target="_blank" href="javascript:;">中交二航局京雄城际铁路项目全线率先完成无砟...</a></li>
+<li>·<a target="_blank" href="javascript:;">宁夏银川至陕西西安高铁渭河大桥四线桥合龙...</a></li>
+<li>·<a target="_blank" href="javascript:;">中铁七局武汉公司埃塞俄比亚56Km高速公路项目圆...</a></li>
+<li>·<a target="_blank" href="javascript:;">黄黄铁路一分部成功浇筑复工后第一榀箱梁...</a></li>
+<li>·<a target="_blank" href="javascript:;">二航造 | 中国最大跨度悬索桥南锚碇正式动工...</a></li>
+<li>·<a target="_blank" href="javascript:;">“万里黄河第一隧”进入“穿河”模式...</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>        
+        
+        
+        
+        </div>
+      	<div class="main5-right">
+            <h3 class="s-titles"><a target="_blank" href='javascript:;'>市政建设</a></h3>
+			<dl class="s-main812">
+              <dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/200811/1-200Q11054451D.jpg" width="138" height="86"></a></dt>
+              <dd>
+                    <h3><a target="_blank" href="javascript:;">群众期待的“幸福</a></h3>
+                    <p>凯里坐落于清水江畔，境内山脉纵横，水系发达，旅游资源丰富<a href="javascript:;">更多>></a></p>
+              </dd>
+            </dl>
+
+			
+        	<img src="templets/default/images/pw-fen1.jpg" width="315" height="1" class="fen">
+            <div class="clear"></div>
+  			<ul class="s-uls s-uls2">
+                <li>·<a target="_blank" href="javascript:;">群众期待的“幸福路”让凯里步入高速时代...</a></li>
+<li>·<a target="_blank" href="javascript:;">南昌昌南大道项目主体工程全面通车...</a></li>
+<li>·<a target="_blank" href="javascript:;">北京东部地区在建最大医院2022年竣工！...</a></li>
+<li>·<a target="_blank" href="javascript:;">长沙地铁4号线正式载客试运营...</a></li>
+
+            </ul>
+        	<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2281' language='javascript'></script>
+       	</div>
+        <div class="xiaoguo">
+            <h3 class="s-titles"><a target="_blank" href='javascript:;'>魅力城市</a></h3>
+            <div class="warp">
+                <img src="templets/default/images/sprite.png" id="leftWarp"><img src="templets/default/images/sprite1.png" id="rightWarp">
+                <div class="showWarp" id="showArea">
+                    <div class="all" id="all">
+					<a target="_blank" href="javascript:;"><img src="/uploads/allimg/190912/1-1Z9121P5021S.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/150424/17-15042416495R09.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130708/9-130FQ4012N38.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130614/9-130614091441314.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130614/9-1306140920104E.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130609/9-13060Z9323O62.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130609/9-13060Z92R4111.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130409/1-130409101501600-lp.jpg" width="166" height="125"></a>
+
+                    </div>
+                </div>
+            </div>
+			<script type="text/javascript">
+            var allDl=document.getElementById("all")//获取所所有图片的ID
+            var showArea=document.getElementById("showArea")//找到控制滚动条的id
+            var btnLeft=document.getElementById("leftWarp")
+            var btnRight=document.getElementById("rightWarp")
+            var buffer=0
+            var num=0;
+            btnLeft.onclick=function(){
+                num-=945;
+                btnRight.src="http://www.chinajsxx.com/templets/default/images/sprite1.png"
+                if(num<=0){
+                    num=0
+                    this.src="http://www.chinajsxx.com/templets/default/images/spritehover.png"
+                }
+            }
+            btnRight.onclick=function(){
+                num+=945;
+                btnLeft.src="http://www.chinajsxx.com/templets/default/images/sprite.png"
+                
+                if(num>=1890){
+                    num=1890
+                    this.src="http://www.chinajsxx.com/templets/default/images/sprite1hover.png"
+                }
+            }
+            function setArea(){
+                if(num<buffer){
+                    w=Math.floor(0.1*(num-buffer))
+                }else{
+                    w=Math.ceil(0.1*(num-buffer))
+                }
+                buffer+=w;
+                showArea.scrollLeft=buffer;	
+            }
+            setInterval(setArea,1)
+            </script>
+        
+        </div>
+      	<div class="main6">
+            <h3 class="s-titles"><a target="_blank" href='javascript:;'>水利水电</a></h3>
+			<dl class="s-main812 s-main81">
+              <dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/201222/1-201222110335B0.JPG" width="138" height="86"></a></dt>
+              <dd>
+                    <p>12月21日，位于湖南省永州市东安县芦洪市镇的国家能源集团国华永州电厂项目工地上，锅炉大板梁吊装和受热面安装<a href="javascript:;" class='more'>更多>></a></p>
+              </dd>
+            </dl>
+
+			
+        	<img src="templets/default/images/pw-fen1.jpg" width="315" height="1" class="fen">
+            <div class="clear"></div>
+  			<ul class="s-uls">
+                <li>·<a target="_blank" href="javascript:;">烟塔合一项目 缓解湘南用电...</a></li>
+<li>·<a target="_blank" href="javascript:;">国内首座地下牵引变电所建成并送电成功...</a></li>
+<li>·<a target="_blank" href="javascript:;">拉林铁路全线牵引变压器安装完成...</a></li>
+<li>·<a target="_blank" href="javascript:;">全国重点水运工程建设项目复工率达99%...</a></li>
+<li>·<a target="_blank" href="javascript:;">水电十二局金属结构厂复工后首批设备出厂发货...</a></li>
+
+            </ul>
+       	</div>
+        <img src="templets/default/images/fenge.jpg" class="fenge">
+      	<div class="main6c">
+            <h3 class="s-titles"><a target="_blank" href='javascript:;'>交通运输</a></h3>
+  			<ul class="s-uls">
+                <li>·<a target="_blank" href="javascript:;">时速350公里高速货运动车组下线...</a></li>
+<li>·<a target="_blank" href="javascript:;">交通运输部：优先支持西藏公路建设...</a></li>
+<li>·<a target="_blank" href="javascript:;">新发展格局给交通运输发展带来新机遇...</a></li>
+<li>·<a target="_blank" href="javascript:;">交通运输部：下半年继续“稳投资”，破除...</a></li>
+<li>·<a target="_blank" href="javascript:;">最北高寒高铁建设传来好消息...</a></li>
+<li>·<a target="_blank" href="javascript:;">京沪高铁二线已完成现场定测，正在开展地...</a></li>
+<li>·<a target="_blank" href="javascript:;">中欧班列，开出逆势上扬的曲线...</a></li>
+<li>·<a target="_blank" href="javascript:;">浙江未来30年的交通发展规划解读...</a></li>
+<li>·<a target="_blank" href="javascript:;">山东交通重点项目累计完成投资233.3亿元...</a></li>
+
+            </ul>
+       	</div>
+        <img src="templets/default/images/fenge.jpg" class="fenge">
+      	<div class="main6r">
+            <h3 class="s-titles"><a target="_blank" href='javascript:;'>城市园林</a></h3>
+			<dl class="s-main812 s-main81">
+              <dt><a target="_blank" href="javascript:;"><img src="uploads/130912/9-130912091423L9.jpg" width="138" height="86"></a></dt>
+              <dd>
+                    <h3><a target="_blank" href="javascript:;">重庆石柱：打造独</a></h3>
+                    <p>月18日，重庆市人民政府正式批复《石柱土家族自治县城乡总体<a href="javascript:;">更多>></a></p>
+              </dd>
+            </dl>
+
+        	<img src="templets/default/images/pw-fen.jpg" width="270" height="1" class="fen">
+            <div class="clear"></div>
+  			<ul class="s-uls s-uls6">
+                <li>·<a target="_blank" href="javascript:;">重庆石柱：打造独具民族文化特色的生态园林城...</a></li>
+<li>·<a target="_blank" href="javascript:;">武汉：新洲仓埠投资逾3亿打造赏花长廊...</a></li>
+<li>·<a target="_blank" href="javascript:;">北京市民身边城市公园今年再添15座...</a></li>
+<li>·<a target="_blank" href="javascript:;">北京奥林匹克公园边最大“城中村”变绿地...</a></li>
+<li>·<a target="_blank" href="javascript:;">本市5年内营造百万亩城市森林...</a></li>
+
+            </ul>
+            
+       	</div>
+   		<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2335' language='javascript'></script>
+		<div class="main7-left">
+
+				<script type="text/javascript">
+                $(function(){
+                /*
+                    鼠标滑过菜单(#tabMenu li)时，执行以下动作
+                    1.显示对应的内容快，隐藏其他的内容块
+                    2.突出显示当前菜单项
+                */	
+                    $(".tabcon:eq(0)").removeClass("hids")
+                    $("#tabMenus li").each(function(index){     //index 每一个对象所应有的索引值
+                        $(this).mousemove(function(){
+                            $(".tabcona").addClass("hids")	  //添加(追加)class样式   addClass("class名")
+                            $(".tabcona:eq("+index+")").removeClass("hids")   //删除class样式  removeClass("class名")
+                            $("#tabMenus li").removeClass("hovergr")    //删除hover样式
+                            $(this).addClass("hovergr")                //添加hover样式
+                        })	
+                    })	
+                })
+                </script>
+  				<div class="tabsu">
+                    <ul id="tabMenus">
+                    	<h3>能源动力</h3>
+                        <li class="hovergr"><a target="_blank" href='javascript:;'>石油石化</a></li>
+                        <li><a target="_blank" href='javascript:;'>电力</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div class="tabcona hids">
+						<a target="_blank" href="javascript:;"><img src="/uploads/allimg/201220/1-2012201F500Y2.jpg" width="268" height="193"></a>
+
+                        <ul class="s-uls s-ulsdger">
+                            <li>·<a target="_blank" href="javascript:;">准噶尔盆地发现大气藏...</a></li>
+<li>·<a target="_blank" href="javascript:;">华北石化千万吨炼油改造配套工程全...</a></li>
+<li>·<a target="_blank" href="javascript:;">中国石化公布前三季度业绩...</a></li>
+<li>·<a target="_blank" href="javascript:;">中国石化东海牌沥青铺上北京新机场...</a></li>
+<li>·<a target="_blank" href="javascript:;">壳牌放弃65亿美元石化项目 能源行业...</a></li>
+<li>·<a target="_blank" href="javascript:;">ABB为我国首个大型页岩气项目提供智...</a></li>
+<li>·<a target="_blank" href="javascript:;">锵锵三人行——关于测量员的那些事...</a></li>
+<li>·<a target="_blank" href="javascript:;">资源价格改革不等于涨价 中国成品油...</a></li>
+
+                        </ul>
+                    </div>
+					<div class="tabcona">
+	     				<a target="_blank" href="javascript:;"><img src="/uploads/allimg/190117/1-1Z11G0241N41.jpg" width="268" height="193"></a>
+
+                        <ul class="s-uls s-ulsdger">
+                            <li>·<a target="_blank" href="javascript:;">大渡河水电科技项目入选工信部202...</a></li>
+<li>·<a target="_blank" href="javascript:;">铆足“三股劲”水电八局力保海外项...</a></li>
+<li>·<a target="_blank" href="javascript:;">南欧江四级电站2号机定子顺利吊装...</a></li>
+<li>·<a target="_blank" href="javascript:;">青海柴达木“三区两州”电网建设工...</a></li>
+<li>·<a target="_blank" href="javascript:;">中国特高压进入密集核准期 又一项投...</a></li>
+<li>·<a target="_blank" href="javascript:;">甘再水电站年发电量突破5.41亿千瓦时...</a></li>
+<li>·<a target="_blank" href="javascript:;">马来西亚巴林基安燃煤电站倒送电一...</a></li>
+<li>·<a target="_blank" href="javascript:;">【热点】中建三局二公司签约全球最...</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+        </div>   
+        <img src="templets/default/images/fenge.jpg" class="fenge">
+	    <div class="main7-right">
+            <h3 class="s-titles"><a target="_blank" href='javascript:;'>建筑项目</a></h3>
+  			<ul class="s-uls s-uls98">
+                <li>·<a target="_blank" href="javascript:;">深圳市建筑工务署师吴江淮到岛隧...</a></li>
+<li>·<a target="_blank" href="javascript:;">中建二局二公司银川西夏万达项目...</a></li>
+<li>·<a target="_blank" href="javascript:;">高河矿铁路专用线顺利通过郑州铁...</a></li>
+<li>·<a target="_blank" href="javascript:;">平凡背后的精彩...</a></li>
+<li>·<a target="_blank" href="javascript:;">河北建设产品入选全国水利系统重...</a></li>
+<li>·<a target="_blank" href="javascript:;">铁路时评：坐高铁去踏青  春日最...</a></li>
+<li>·<a target="_blank" href="javascript:;">中铁七局广明高速SG06标获业主奖...</a></li>
+<li>·<a target="_blank" href="javascript:;">中铁一局四公司郑州市城郊铁路项...</a></li>
+
+            </ul>
+        	<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2283' language='javascript'></script>
+        	<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2284' language='javascript'></script>
+        </div>     
+        <div class="main8-left">
+            <h3 class="s-titles"><a target="_blank" href='javascript:;'>优秀工程项目</a></h3>
+            
+    <div class="comiis_wrapad" id="slideContainer">
+        <div id="frameHlicAe" class="frame cl">
+            <div class="temp">
+            </div>
+            <div class="block">
+                <div class="cl">
+                    <ul class="slideshow" id="slidesImgs">
+					<li>
+                        	<dl class="fxsfd">
+                            	<dt><a href="javascript:;"><img src="/uploads/allimg/200519/1-200519161403156.jpg" width="280" height="200"></a></dt>
+                                <dd>5月12日，五峰山长江大桥公路钢桥面板喷砂除锈100平方米试验段施工完成，经检测合格，达到技术参数要求。目前，全桥喷砂涂装作业全面展开，已完成10000平方米喷砂涂作业面，全桥合计6.6万平方米，计划5月底完成喷砂涂装施工。<a href="javascript:;">更多>></a></dd>
+                            </dl>
+                        </li>
+<li>
+                        	<dl class="fxsfd">
+                            	<dt><a href="javascript:;"><img src="/uploads/allimg/200306/1-200306094044107.jpg" width="280" height="200"></a></dt>
+                                <dd>3月4日，由中国交建投资建设的华丽高速公路项目，迎来复工后首个重要节点，项目重要控制性工程金安金沙江大桥，中交二航局标段丽江岸桥面板率先吊装完成。
+
+　　率先吊装完成<a href="javascript:;">更多>></a></dd>
+                            </dl>
+                        </li>
+<li>
+                        	<dl class="fxsfd">
+                            	<dt><a href="javascript:;"><img src="/uploads/allimg/200228/1-20022Q24131238.jpg" width="280" height="200"></a></dt>
+                                <dd>2月25日，中央政治局委员、重庆市委书记陈敏尔来到二航局承建的白居寺长江大桥项目，实地检查调研重庆市重大基础设施项目复工情况。在施工现场，陈敏尔仔细了解白居寺大桥项目人员健康监测排查、工地封闭管理、食堂分时段就餐等疫情防控工作情况，详细询问项目用<a href="javascript:;">更多>></a></dd>
+                            </dl>
+                        </li>
+<li>
+                        	<dl class="fxsfd">
+                            	<dt><a href="javascript:;"><img src="/uploads/allimg/200228/1-20022Q22JCP.jpg" width="280" height="200"></a></dt>
+                                <dd>2月26日凌晨，振华重工建造的印度孟买那瓦舍瓦(NSICT)码头4台岸桥搭乘“振华28”轮如期顺利起航，同船装运的还有3台巴基斯坦场桥。该批岸桥是名副其实的“大个子”，单吊具双箱60吨，大车轨距20米，前伸距55米，后伸距15米，起升高度轨上40米，轨下20米。应用户要求，该批<a href="javascript:;">更多>></a></dd>
+                            </dl>
+                        </li>
+<li>
+                        	<dl class="fxsfd">
+                            	<dt><a href="javascript:;"><img src="/uploads/allimg/200225/1-2002251502123J.jpg" width="280" height="200"></a></dt>
+                                <dd>2月23日，由中国港湾公司参建的斯里兰卡南部高速公路延长线举行通车仪式，庆祝全线贯通。在通车仪式上，马欣达总理表示，中国为斯里兰卡国家发展提供了巨大支持，两国在“一带一路”框<a href="javascript:;">更多>></a></dd>
+                            </dl>
+                        </li>
+
+                     
+                    </ul>
+                </div>
+                <div class="slidebar" id="slideBar">
+                    <ul>
+                        <li class="on">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        SlideShow(1000);
+    </script>
+
+        
+        </div>
+        <img src="templets/default/images/fenge.jpg" class="fenge">
+        <div class="main8-right">
+            <h3 class="s-titles"><a target="_blank" href='javascript:;'>人物</a></h3>
+			<dl class="s-main812 s-main82">
+              <dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/181228/1-1Q22PSQ4102.jpg" width="127" height="86"></a></dt>
+              <dd>
+                    <p>2019年，是中华人民共和国成立70周年，是决胜全面建成小康社会<a href="javascript:;">更多>></a></p>
+              </dd>
+            </dl>
+
+        	<img src="templets/default/images/pw-fen.jpg" width="300" height="1" class="fen">
+            <div class="clear"></div>
+  			<ul class="s-uls s-uls9">
+                <li>·<a target="_blank" href="javascript:;">谋新篇建新功 全力推进高质量发展...</a></li>
+<li>·<a target="_blank" href="javascript:;">献身铁建 忠诚奉献...</a></li>
+<li>·<a target="_blank" href="javascript:;">由焊花四溅的状元工匠到传经授业的焊培技师...</a></li>
+<li>·<a target="_blank" href="javascript:;">勤俭是富裕之杖...</a></li>
+
+            </ul>
+        </div>
+		
+		<div class="clear"></div>
+		<!--footer start-->
+		<div class="s-mian11">
+            <h3 class="s-titles">合作企业</h3>
+            <ul class="s-mian11h">
+                
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1308221530495399.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/1405231015426799.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003111505569938.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003132230167814.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1308221550235312.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003111545224211.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/1405161524342027.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003132123185738.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003132221038693.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003132242493201.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2002111533214911.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003111539002306.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003132103095569.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2002101319279371.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003111809276726.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003132144373316.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/1903191529155406.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003111437297195.png' width='88' height='31' border='0'></a> </li>
+				
+            </ul>
+        </div> 
+		</div>
+     	<div class="clear"></div>
+		<div class="clear"></div>
+	<div class="footer" style="margin-top:10px;">
+    	<div class="footer-main">
+        	<ul>
+            	<li class="none"><a href="gywm/index.html">关于我们</a></li>
+				<li><a href="lxwm/index.html">联系我们</a></li>
+				<li><a href="kdgg/index.html">刊登广告</a></li>
+				<li><a href="flsm/index.html">法律声明</a></li>
+				<li><a href="index10.html">合作中心</a></li>
+				<li><a href="data/sitemap.html">网站地图</a></li>
+            </ul>
+            <div class="bottom" style='float:left;margin-left:120px;'>
+            	<img src="templets/default/images/footer-logo.jpg">
+                <p class="font-top">Copyright @ 2013 海南建设信息网 版权所有 <a href="javascript:;" target="_blank">
+					备案号:京ICP备20024077号-1</a><br>
+                <a target="_blank" href="byls/index.html"> 法律顾问;山东贯球律师事务所  尹有林律师 </a>&nbsp;&nbsp;<a target="_blank" href="javascript:;"> 技术支持：亿睿鸿翔 QQ：435093332 </a> </p>
+				<p><script src="stat-5319148_5319148_pic.js" language="JavaScript"></script></p>
+            </div>
+			<img src="templets/default/images/weibo.jpg" width='126px' height='103px' style='float:right;'>
+			<img src="templets/default/images/weixin.jpg" width='126px' height='103px' style='float:right;'>
+        </div>
+    </div>
+<!--footer end-->
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254149112'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1254149112' type='text/javascript'%3E%3C/script%3E"));</script>
+
+
+</body>
+</html>

@@ -1,0 +1,837 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>建筑电气_海南建设信息网</title>
+<meta name="keywords" content="开关,照明,LED,建筑电气新闻,建筑电气热点,智慧城市发展,安防系统趋势,LED照明市场,解决方案,电气招标公告,智能">
+<meta name="description" content="覆盖建筑/城市/室内照明,智能系统,暖通制冷以及安防等行业,立足行业,服务客户!建立平等互利,合作共赢的价值理念!">
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<link href="templets/default/css/architecture.css" rel="stylesheet">
+<script src="templets/default/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="templets/default/js/simplefoucs.js" type="text/javascript"></script>
+<script src="templets/default/js/jquery-1.4a2.min.js" type="text/javascript"></script>
+<script src="templets/default/js/jquery.KinSlideshow-1.2.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+	$("#KinSlideshow").KinSlideshow();
+})
+</script>
+<script type="text/javascript">
+$(function(){
+	$("#KinSlideshow2").KinSlideshow();
+})
+</script>
+</head>
+
+<body>
+	﻿<script>
+function show(){
+var date = new Date(); //日期对象
+var now = "";
+now = date.getFullYear()+"年"; //读英文就行了
+now = now + (date.getMonth()+1)+"月"; //取月的时候取的是当前月-1如果想取当前月+1就可以了
+now = now + date.getDate()+"日";
+now = now + date.getHours()+"时";
+now = now + date.getMinutes()+"分";
+now = now + date.getSeconds()+"秒";
+document.getElementById("nowDiv").innerHTML = now; //div的html是now这个字符串 
+setTimeout("show()",1000); //设置过1000毫秒就是1秒，调用show方法
+}
+</script>
+<div class="s-wrap">
+    	<div class="s-top">	
+            <div class="sq-mains">
+                <p class="s-p1">欢迎光临海南建设信息网！</p>
+                <form>
+				<table width="600" border="0" cellspacing="0" cellpadding="0" height='28px'>
+					<tr>
+					<td height="30" width="450">
+					<iframe width="450" scrolling="no" height="15" frameborder="0" allowtransparency="true" src="javascript:;"></iframe>
+					</td>
+					<td height="30">
+					<span id="localtime" style="margin-left:20px;"></span>
+					<script type="text/javascript">
+					function showLocale(objD)
+					{
+						var str,colorhead,colorfoot;
+						var yy = objD.getYear();
+						if(yy<1900) yy = yy+1900;
+						var MM = objD.getMonth()+1;
+						if(MM<10) MM = '0' + MM;
+						var dd = objD.getDate();
+						if(dd<10) dd = '0' + dd;
+						var hh = objD.getHours();
+						if(hh<10) hh = '0' + hh;
+						var mm = objD.getMinutes();
+						if(mm<10) mm = '0' + mm;
+						var ss = objD.getSeconds();
+						if(ss<10) ss = '0' + ss;
+						var ww = objD.getDay();
+						if  ( ww==0 )  colorhead="<font color=\"#FF0000\">";
+						if  ( ww > 0 && ww < 6 )  colorhead="<font color=\"#373737\">";
+						if  ( ww==6 )  colorhead="<font color=\"#008000\">";
+						if  (ww==0)  ww="星期日";
+						if  (ww==1)  ww="星期一";
+						if  (ww==2)  ww="星期二";
+						if  (ww==3)  ww="星期三";
+						if  (ww==4)  ww="星期四";
+						if  (ww==5)  ww="星期五";
+						if  (ww==6)  ww="星期六";
+						colorfoot="</font>"
+						str = colorhead + yy + "-" + MM + "-" + dd + " " + hh + ":" + mm + ":" + ss + "  " + colorfoot;
+						return(str);
+					}
+					function tick()
+					{
+						var today;
+						today = new Date();
+						document.getElementById("localtime").innerHTML = showLocale(today);
+						window.setTimeout("tick()", 1000);
+					}
+					tick();
+					</script>
+					</td>
+					</tr>
+				</table>
+                </form>
+                <p class="s-p2"><a href="" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.chinajsxx.com');">设为首页</a>&nbsp;&nbsp; <a href="javascript:window.external.AddFavorite('http://www.chinajsxx.com','海南建设信息网')">加入收藏</a></p>
+            </div>
+        </div>
+        <div class="s-logos">
+        	<a href="index.html" target="_blank"><img src="templets/default/images/logo.jpg" class="logo"></a>
+            <div class="logo-right">
+			 <form name="formsearch" action="http://www.chinajsxx.com/plus/search.php">
+                <div class="top-left">
+					<div style='height:60px;'>
+					<input type="hidden" name="kwtype" value="0">
+					<input name="q" type="text" class="forms" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}" onblur="if(this.value==''){this.value='在这里搜索...';}">
+					<button type="submit" class="search-submit">搜索</button>
+					</div>
+                    <p class="s-psh"><span>热门搜索：</span> <a href='plus/search-0_E68B9BE6A087E68A95E6A08.html' target="_blank">招标投标</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">城乡规划</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">工程建设</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">工程机械</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">房地产</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">建筑信息化</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">建筑电气</a> </p>
+                </div>
+			</form>
+                <img src="templets/default/images/phones.jpg" class="phones">
+                <div class="logo-right-botm2">
+               	 	 <marquee scrolldelay="100"><a target="_blank" href="55968.html">新纪录！中国重汽年产销商用车突破50万辆</a>&nbsp;&nbsp;
+<a target="_blank" href="55948.html">“十四五”大展宏图：潍柴动力披露再融资方案</a>&nbsp;&nbsp;
+</marquee>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+        	<div class="nav-main">
+            	<a href="index.html"><img src="templets/default/images/nav-sy.jpg" class="sy" title="海南建设信息网"></a>
+                 <ul class="borders">
+                	<li class="te"><a href="index1.html">新闻</a></li>
+                	<li><a href="zhengcefagui/index.html">政策法规</a></li>
+                	<li><a href="index2.html">城乡规划</a></li>
+                	<li><a href="index3.html">勘察设计</a></li>
+                	<li><a href="index4.html">招标投标</a></li>
+                	<li><a href="index5.html" class="lettes">工程建设</a></li>
+                	<li><a href="index6.html">工程机械</a></li>
+                	<li><a href="index7.html">房 地 产</a></li>
+                	<li><a href="index8.html">建筑部品</a></li>
+                	<li><a href="index9.html">装饰·装修</a></li>
+                	<li><a href="index10.html">合作中心</a></li>
+                </ul>
+                <ul class="borders bord">
+                	<li class="te"><a href="index11.html">图库</a></li>
+                	<li><a href="index12.html">中国城镇</a></li>
+                	<li><a href="index13.html">环保科技</a></li>
+                	<li><a href="index14.html">基础建设</a></li>
+                	<li><a href="">建筑电气</a></li>
+                	<li><a href="index16.html">建筑信息化</a></li>
+                	<li><a href="index17.html">专家论道</a></li>
+                	<li><a href="index18.html">名企精英</a></li>
+                	<li><a href="index19.html">热点话题</a></li>
+                	<li><a href="index20.html">质量·安全</a></li>
+                	<li><a href="lxwm/index.html">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+	<div class="a-main">
+		<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2213' language='javascript'></script>
+        <div class="clear"></div>
+ 		<h3 class="list-h3sz list-h3sz1 "><img src="templets/default/images/lh3-bj.jpg">首页>建筑电气</h3>
+                <div class="logo-right-botm logo-right-botm1">
+               	 	 <marquee scrolldelay="100"><a target="_blank" href="javascript:;">转型升级 施耐德电气助力配电设备制造行业赢领数字新动能</a>&nbsp;&nbsp;
+<a target="_blank" href="javascript:;">霍尼韦尔和西安开米深入合作；中国采购行业出现W形复苏迹象</a>&nbsp;&nbsp;
+</marquee>
+                </div>
+    	<div class="a-main1">
+        	<div class="a-main1-left">
+    <div id="KinSlideshow" style="visibility:hidden;">
+	<a target="_blank" href="javascript:;"><img src="uploads/allimg/201211/1-2012110Z425b1.jpg" alt="以数字化创新稳固电力供应的“最" width="396" height="278"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/201206/1-201206195RDS.JPG" alt="ABB智慧城市解决方案助推城市能源" width="396" height="278"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/201117/1-20111GS32C01.jpg" alt="ABB推出全球首款绝缘气体“共享”" width="396" height="278"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/201015/1-20101515494E22.jpg" alt="转型升级 施耐德电气助力配电设" width="396" height="278"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/201012/1-201012101329419.jpg" alt="雷士照明伯克丽-秋实 ，斩获中国" width="396" height="278"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/200730/1-200I0104140516.jpg" alt="霍尼韦尔和西安开米深入合作；中" width="396" height="278"></a>
+
+
+    </div>
+            </div>
+        	<div class="a-main1-center">
+				<h3 class="g-title a-title"><a target="_blank" href="javascript:;">ABB推出全球首款绝缘气体“共享</a></h3>
+
+    			  <ul class="s-xins a-xins  g-main4a">
+					<li><span>11-04</span><a target="_blank" href="javascript:;">·施耐德电气到访数据中心绿色能源技</a></li>
+<li><span>10-15</span><a target="_blank" href="javascript:;">·霍尼韦尔改善热处理应用性能，提升</a></li>
+<li><span>10-15</span><a target="_blank" href="javascript:;">·转型升级 施耐德电气助力配电设备制</a></li>
+<li><span>10-12</span><a target="_blank" href="javascript:;">·雷士照明伯克丽-秋实 ，斩获中国国</a></li>
+<li><span>09-30</span><a target="_blank" href="javascript:;">·同方智慧节能服务雄安 助力打造亚洲</a></li>
+<li><span>09-11</span><a target="_blank" href="javascript:;">·中低压配电一体化 “护航”集成电路</a></li>
+<li><span>07-31</span><a target="_blank" href="javascript:;">·欧司朗第三财季危机管理取得成效，</a></li>
+<li><span>07-30</span><a target="_blank" href="javascript:;">·霍尼韦尔和西安开米深入合作；中国</a></li>
+
+                    <li class="g-hoer"><a href="#" style="color:#b80000;">了解更多>></a></li>
+                </ul>
+            </div>
+       	  <div class="a-main1-right">
+                 <h3 class="g-titles"><a target="_blank" href='javascript:;'>招标公告</a></h3>
+      			 <ul class="s-xins g-main5h">
+                    <li><span>02-06</span>·<a target="_blank" href="javascript:;">北京轨道交通11号线西段工程通</a></li>
+<li><span>01-19</span>·<a target="_blank" href="javascript:;">北京信息科技大学新校区建设</a></li>
+<li><span>11-06</span>·<a target="_blank" href="javascript:;">新建大同至张家口高速铁路山</a></li>
+<li><span>06-30</span>·<a target="_blank" href="javascript:;">中船动力有限公司中件加工车</a></li>
+<li><span>06-14</span>·<a target="_blank" href="javascript:;">北京市轨道交通指挥中心8号线</a></li>
+<li><span>06-06</span>·<a target="_blank" href="javascript:;">北京新机场南航基地项目电梯</a></li>
+<li><span>04-07</span>·<a target="_blank" href="javascript:;">体育馆木地板及电气线路更新</a></li>
+<li><span>02-28</span>·<a target="_blank" href="javascript:;">世通国际大厦消防设施及电气</a></li>
+<li><span>12-22</span>·<a target="_blank" href="javascript:;">顺义区赵全营镇解放村地源热</a></li>
+
+                </ul>
+            
+         </div>
+      </div>
+
+
+  <div class="a-main2">
+        	<div class="a-main2-left">
+              <h3 class="g-titles"><a target="_blank" href='javascript:;'>新品上市</a></h3>
+				<dl>
+                    <dt><a target="_blank" href="javascript:;"><img src="uploads/allimg/180917/1-1P91G13436202.jpg" width="186" height="124"></a></dt>
+                    <dd><h3><a target="_blank" href="javascript:;">家的大五孔118插座</a></h3><p>【建设行业.报道】118系列开关插座，发端于美、日开关体系的120型产品，于上世纪末开</p><a href="javascript:;" class="more">更多>></a></dd>
+                 </dl>
+
+		  <ul class="s-xins a-main2a">
+                    <li>·<a target="_blank" href="javascript:;">欧普商照皓广LED广照灯：...</a></li>
+<li>·<a target="_blank" href="javascript:;">欧普出“皓易”系列触极...</a></li>
+<li>·<a target="_blank" href="javascript:;">为了更好的商品展示，如...</a></li>
+<li>·<a target="_blank" href="javascript:;">信心之选带动高清视界全...</a></li>
+<li>·<a target="_blank" href="javascript:;">ABB推出本土研发的传动新...</a></li>
+<li>·<a target="_blank" href="javascript:;">史福特高性价比LED路灯首...</a></li>
+<li>·<a target="_blank" href="javascript:;">一分钟知道啥是好插线板...</a></li>
+<li>·<a target="_blank" href="javascript:;">Smartroom重磅出击 让你的房...</a></li>
+<li>·<a target="_blank" href="javascript:;">SmartRoom智能家居墙面底座...</a></li>
+<li>·<a target="_blank" href="javascript:;">SmartRoom墙面插座测评...</a></li>
+
+                </ul>
+                 
+</div>
+        	<div class="a-main2-center">
+                 <h3 class="g-titles"><a target="_blank" href='javascript:;'>热点话题</a></h3>
+      			 <ul class="s-xins a-main2b">
+                    <li><span>12-11</span>·<a target="_blank" href="javascript:;">以数字化创新稳固电力供应的“最后</a></li>
+<li><span>12-06</span>·<a target="_blank" href="javascript:;">ABB智慧城市解决方案助推城市能源转</a></li>
+<li><span>10-19</span>·<a target="_blank" href="javascript:;">以中低压一体化智能配电方案实现“</a></li>
+<li><span>07-12</span>·<a target="_blank" href="javascript:;">ABB智慧建筑产品荣获红点大奖</a></li>
+<li><span>05-25</span>·<a target="_blank" href="javascript:;">直观互动：欧司朗超紧凑型红外 LE</a></li>
+<li><span>05-12</span>·<a target="_blank" href="javascript:;">【线上直播】为广域大规模物联网而</a></li>
+<li><span>04-23</span>·<a target="_blank" href="javascript:;">2020康普为室内无线网络带来更多选择</a></li>
+<li><span>04-23</span>·<a target="_blank" href="javascript:;">一幅漫画带你了解什么是NAND闪存，为</a></li>
+<li><span>04-20</span>·<a target="_blank" href="javascript:;">霍尼韦尔推出新型不可燃制冷剂用于</a></li>
+<li><span>04-13</span>·<a target="_blank" href="javascript:;">昕诺飞升级SR LED驱动器系列产品，符</a></li>
+
+                </ul>
+			</div>
+       	    <div class="a-main2-right">
+                 <dl>
+                    <dt><script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2252' language='javascript'></script></dt>
+                 </dl>
+				 <dl>
+                    <dt><script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2253' language='javascript'></script></dt>
+                 </dl>
+				 <dl>
+                    <dt><script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2254' language='javascript'></script></dt>
+                 </dl>
+				 <dl>
+                    <dt><script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2255' language='javascript'></script></dt>
+                 </dl>
+				 <!--
+				 <dl>
+                    <dt><script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2256' language='javascript'></script></dt>
+                 </dl>
+				 <dl>
+                    <dt><script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2257' language='javascript'></script></dt>
+                 </dl>
+				 <dl>
+                    <dt><script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2258' language='javascript'></script></dt>
+                 </dl>
+				 <dl>
+                    <dt><script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2259' language='javascript'></script></dt>
+                 </dl>
+				 -->
+    		</div>
+      </div>
+    	
+		<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2215' language='javascript'></script>
+		
+        <div class="clear"></div>
+        <div class="a-main3">
+		  <div class="a-main3-left">
+           	<h3 class="s-titles"><a target="_blank" href='javascript:;'>高端访谈</a></h3>   
+				
+				<div id="KinSlideshow2" style="visibility:hidden;">
+				<a target="_blank" href="javascript:;"><img src="/uploads/allimg/171020/17-1G0200P55W43.jpg" alt="同心共筑“健康梦”--访狄耐克营" width="307" height="234"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/170316/1-1F316131100444.jpg" alt="专访烽火科技周经理：立足技术服" width="307" height="234"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/161107/1-16110F91I5593.jpg" alt="ABB集团CEO：物联网技术是工业数字" width="307" height="234"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/150525/17-150525115109594.jpg" alt="施耐德电气新一代智能化楼宇管理" width="307" height="234"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/150214/1-1502141K20a19.jpg" alt="英国消防事业有限公司(FFE)任命高" width="307" height="234"></a>
+
+
+				</div>
+
+				<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2225' language='javascript'></script>
+				
+            </div>        	
+			<div class="a-main3-right">
+            
+    <div class="dhooo_tab">
+        <ul class="tab_btn" id="myTab_btns1">
+            <li class="hotlo"><a target="_blank" href='javascript:;'>暖通系统</a></li>
+            <li><a target="_blank" href='javascript:;'>智能系统</a></li>
+            <li><a target="_blank" href='javascript:;'>安防系统</a></li>
+        </ul>
+        <div class="mains" id="main1s">
+            <div class="shell">
+                <ul id="content1">
+                
+                    <li class="shell-li">
+						<div class="shell-li-left">
+						<a target="_blank" href="javascript:;"><img src="/uploads/allimg/170908/17-1FZQ04104355.jpg" width="207" height="178" class="s-0fe"></a>
+							<h3 class="shel-tia"><a target="_blank" href="javascript:;">新风进校园,新风满</a></h3><p class="shel0asf">河南师范大学第二附属小学开装狄耐克新风系统 秋季临近，北方雾霾将再度来袭。如此特殊的天气情况，不仅严重影响了空气质量，也为中小学孩子们的学习生活蒙上了一层灰。赶在九月开学季前，狄耐克环境智能为河南师范大学第二附属小学的为孩子们送来了好消息在校园中安装品牌智能新风系统。 新风进校园，健康整学期 <a class='more' href="javascript:;">更多>></a> </p>
+
+                      	</div>
+						<div class="shell-li-right">
+                            <ul class="s-uls">
+							<li><a target="_blank" href="javascript:;">·美的物业登陆新三板 开启多元化</a></li>
+<li><a target="_blank" href="javascript:;">·江森自控庆祝无锡研发与制造基地</a></li>
+<li><a target="_blank" href="javascript:;">·大金空调综合提案展示厅开业</a></li>
+<li><a target="_blank" href="javascript:;">·江森自控突破性冷热电三联供系统</a></li>
+<li><a target="_blank" href="javascript:;">·一机多用约克家用全变频机组为家</a></li>
+<li><a target="_blank" href="javascript:;">·大金空调再牵手绿城地产 边疆工</a></li>
+<li><a target="_blank" href="javascript:;">·突出＂舒适节能＂ 2016西部电采暖</a></li>
+<li><a target="_blank" href="javascript:;">·大金空调检测中心被授予CNAS国家</a></li>
+
+                                <li class="bian"><a href="javascript:;">了解更多>></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="shell-li">
+						<div class="shell-li-left">
+				      		<a target="_blank" href="javascript:;"><img src="/uploads/allimg/200103/17-200103102032B9.gif" width="207" height="178" class="s-0fe"></a>
+							<h3 class="shel-tia"><a target="_blank" href="javascript:;">智领芯云 施耐德电</a></h3><p class="shel0asf">2019年12月30日——12月27日，施耐德电气全球执行副总裁、中国区总裁尹正一行到访紫光集团，与紫光集团董事长兼首席执行官赵伟国等公司高层进行了交流座谈。双方就推动芯片产业高质量发展及数字中国建设等话题展开了讨论，并在未来共建绿色、安全、智能电子厂房，探索边缘控制的产业应用，共筑行业生态圈，促进工业电 <a class='more' href="javascript:;">更多>></a></p>
+
+                      	</div>
+						<div class="shell-li-right">
+                            <ul class="s-uls">
+                                <li><a target="_blank" href="javascript:;">·十三载积淀，IOTE已为你做足了准</a></li>
+<li><a target="_blank" href="javascript:;">·昕诺飞照明解决方案助力打造舒适</a></li>
+<li><a target="_blank" href="javascript:;">·蔡奇男：WISE-PaaS + AI，研华与你“</a></li>
+<li><a target="_blank" href="javascript:;">·十大智能家居企业的智能开关面板</a></li>
+<li><a target="_blank" href="javascript:;">·大金全效家用中央空调卫生间提案</a></li>
+<li><a target="_blank" href="javascript:;">·助力安防科普教育——安朗杰安防</a></li>
+<li><a target="_blank" href="javascript:;">·强强联合,共创未来</a></li>
+<li><a target="_blank" href="javascript:;">·荣耀盛典｜2018中国智能建筑行业</a></li>
+
+                                <li class="bian"><a href="javascript:;">了解更多>></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="shell-li">
+						<div class="shell-li-left">
+				      		<a target="_blank" href="javascript:;"><img src="uploads/allimg/181011/1-1Q0110R215V0.jpg" width="207" height="178" class="s-0fe"></a>
+							<h3 class="shel-tia"><a target="_blank" href="javascript:;">来邦医护对讲（</a></h3><p class="shel0asf">【建设行业.报道】广西儿童医院(广西妇幼保健院、妇产医院)，是一所集保健、医疗、科研、教学和基层妇幼保健指导为一体的三级甲等医院，属投资新建项目，将可以更好地服务市民就医需求。 <a class='more' href="javascript:;">更多>></a></p>
+
+                      	</div>
+						<div class="shell-li-right">
+                            <ul class="s-uls">
+                                <li><a target="_blank" href="javascript:;">·来邦医护对讲（IP网络）、门诊排</a></li>
+<li><a target="_blank" href="javascript:;">·康普驱动智慧楼宇的互联</a></li>
+<li><a target="_blank" href="javascript:;">·昕诺飞大中华区总部新办公楼：物</a></li>
+<li><a target="_blank" href="javascript:;">·中国安全技术防范认证中心首批安</a></li>
+<li><a target="_blank" href="javascript:;">·楼宇自控专家江森自控BCPro™系统</a></li>
+<li><a target="_blank" href="javascript:;">·毕业季——狄耐克2016届应届实习</a></li>
+<li><a target="_blank" href="javascript:;">·2015——“狄耐克”完美收官!</a></li>
+<li><a target="_blank" href="javascript:;">·狄耐克智慧停车云平台开启海口盛</a></li>
+
+                                <li class="bian"><a href="javascript:;">了解更多>></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="shell-li-bottom">
+	    	<img src="templets/default/images/q-a.jpg" width="34" height="131" class="q-title">
+            <div class="bannerbox">
+                <div id="focus">
+                    <ul>
+						<li>
+                            <a target="_blank" href="javascript:;"><img src="/uploads/allimg/140701/18-140F1100Z94b.jpg" width="145" height="113"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/150824/17-150R41F934555.jpg" width="145" height="113"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/141222/17-14122210402Na.jpg" width="145" height="113"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/141202/17-141202141316258.jpg" width="145" height="113"></a>
+
+                        </li>
+                       <li>
+                            <a target="_blank" href="javascript:;"><img src="/uploads/allimg/141114/20-141114143J4603.jpg" width="145" height="113"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/141105/17-14110509511R17.jpg" width="145" height="113"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/140901/18-140Z1140503114.jpg" width="145" height="113"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/140731/18-140I10923414I.jpg" width="145" height="113"></a>
+
+                        </li>
+                        <li>
+                            <a target="_blank" href="javascript:;"><img src="/uploads/allimg/140717/18-140GG01403946.jpg" width="145" height="113"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/140701/18-140F1094404435.jpg" width="145" height="113"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/140630/18-140630161201911.jpg" width="145" height="113"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/140321/18-14032115521N41.jpg" width="145" height="113"></a>
+
+                        </li>
+                        <li>
+                            <a target="_blank" href="javascript:;"><img src="uploads/130726/15-130H6113351941.jpg" width="145" height="113"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130731/9-130I1092TI23.jpg" width="145" height="113"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130731/9-130I1092546138.jpg" width="145" height="113"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130731/9-130I1092100Y1.jpg" width="145" height="113"></a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+</div>
+            </div>        	
+        </div>
+        <div class="a-main4">
+			<div class="a-main4-left">
+                <script type="text/javascript">
+                $(function(){
+                    $(".tabMenu li").each(function(index){
+                        $(this).mouseover(function(){
+                            $(".tabContent").addClass("hid")//添加样式
+                            $(".tabContent:eq("+index+")").removeClass("hid")//清除样式
+                            $(".tabMenu li").removeClass("hover")//清除样式
+                            $(this).addClass("hover")//添加样式
+                        })
+                    })
+                })
+                </script>
+                <div class="tab">
+                    <h3 class="xiao-tiotasdg">照明系统</h3>
+                    <ul class="tabMenu">
+                        <li class="hover"><a target="_blank" href='javascript:;'>LED</a></li>
+                        <li><a target="_blank" href='javascript:;'>室内照明</a></li>
+                        <li><a target="_blank" href='javascript:;'>室外照明</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div class="tabContent">
+                        <dl class="s-dbsjkf">
+                            <dt><a target="_blank" href="javascript:;"><img src="uploads/allimg/180902/1-1PZ2102PM13.jpg" width="189" height="142"></a></dt>
+                            <dd>
+                                <h3><a target="_blank" href="javascript:;">LED行货丨广告光源</a></h3>
+                                <p>【建设行业.报道】LED在当今时代的迅速发展，不但开启了广告行业的新篇章，也成为了广告行业的主流媒介。新媒体技术的<a href="javascript:;">更多>></a></p>
+                            </dd>
+                        </dl>
+
+                        <ul class="s-dbsjkfa">
+                            <li><a target="_blank" href="javascript:;">·飞利浦LED照明系统点亮宁波地标中山路绚丽夜...</a></li>
+<li><a target="_blank" href="javascript:;">·响应“全球照明挑战计划”,飞利浦照明售出...</a></li>
+<li><a target="_blank" href="javascript:;">·红壹佰：专注大功率,用产品驱动企业发展...</a></li>
+<li><a target="_blank" href="javascript:;">·飞利浦照明用智能互联科技引领健康照明新未...</a></li>
+<li><a target="_blank" href="javascript:;">·华灯璀璨，邀你共赏！...</a></li>
+
+                        </ul>
+
+                    </div>
+                    <div class="tabContent hid">
+                        <dl class="s-dbsjkf">
+                            <dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/200521/1-2005210R22c38.jpg" width="189" height="142"></a></dt>
+                            <dd>
+                                <h3><a target="_blank" href="javascript:;">昕诺飞携手俄罗斯</a></h3>
+                                <p>荷兰，埃因霍温—全球照明领导者昕诺飞(阿姆斯特丹欧洲证券交易所代码：LIGHT)宣布，携手位于俄罗斯的创新型农业企业R<a href="javascript:;">更多>></a></p>
+                            </dd>
+                        </dl>
+
+                        <ul class="s-dbsjkfa">
+                            <li><a target="_blank" href="javascript:;">·昕诺飞的光配方帮助超市延长生鲜食品保鲜期...</a></li>
+<li><a target="_blank" href="javascript:;">·轻触手机APP，实现照明智能化升级，营造舒适...</a></li>
+<li><a target="_blank" href="javascript:;">·杜绝近视诱因 海德信推好光六大标准...</a></li>
+<li><a target="_blank" href="javascript:;">·照亮智慧城市 欧司朗打造面向未来的道路照明...</a></li>
+<li><a target="_blank" href="javascript:;">·飞利浦照明助力设计互联,引领艺术照明设计创...</a></li>
+
+                        </ul>
+                       			   
+                    </div>
+                    <div class="tabContent hid">
+					<dl class="s-dbsjkf">
+                            <dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/190610/17-1Z610095453600.jpg" width="189" height="142"></a></dt>
+                            <dd>
+                                <h3><a target="_blank" href="javascript:;">昕诺飞在中国加速</a></h3>
+                                <p> 中国，上海——全球照明领导者昕诺飞(阿姆斯特丹欧洲证券交易所代码：LIGHT)今日宣布,其创新的可见光无线通信技术(LiFi，<a href="javascript:;">更多>></a></p>
+                            </dd>
+                        </dl>
+
+                        <ul class="s-dbsjkfa">
+                            <li><a target="_blank" href="javascript:;">·昕诺飞智能互联LED道路照明进驻中国西部,总安...</a></li>
+<li><a target="_blank" href="javascript:;">·昕诺飞LED建筑照明点亮越南名胜顺化皇室...</a></li>
+<li><a target="_blank" href="javascript:;">·与国际照明设计师协会首位华人全球董事赖雨...</a></li>
+<li><a target="_blank" href="javascript:;">·2018年广州(国际)演艺设备、智能声光产品技术...</a></li>
+<li><a target="_blank" href="javascript:;">·飞利浦照明亮相2018法兰克福照明展，力推照明...</a></li>
+
+                        </ul>
+                      
+					   
+                    </div>
+                </div>
+                
+            </div>
+		    <div class="a-main4-right">
+       	   		 <div class="a-main4-right1">
+       	    		<h3 class="g-titles"><a target="_blank" href='javascript:;'>中国建设报</a></h3>
+					<dl>
+                   	  <dt><a target="_blank" href="javascript:;"><img src="uploads/130718/1-130GP10Q4546.jpg" width="138" height="162"></a></dt>
+                      <dd>
+                      		<h3><a target="_blank" href="javascript:;">同方泰德参与渝利</a></h3>
+                            <p>本报讯 历时近5年建设的渝利高铁近日将迎来通车，同方泰德的Techcon楼控产品在渝利高铁丰都、石柱两站的智能化建设中得以应用。 在此项</p>
+                            <a href="javascript:;" class='more'>更多>></a>
+                      </dd>
+                    </dl>
+
+                </div>
+          	 	<div class="g-main3-left1">
+                    <h3 class="g-titles"><a target="_blank" href='javascript:;'>专家论道</a></h3>
+					<div class="g-wenzi"><a target="_blank" href="javascript:;"><img src="/uploads/allimg/200922/1-2009221014153I.jpg" width="112" height="146"></a>
+					<h3><a target="_blank" href="javascript:;">新基建机遇下建筑</a></h3>
+					<p>当前，中国经济呈现出以国内大循环为主体、国内国际双循环相互促进的新发展格局。基于现有的严峻宏观经济环境和营商环境，建筑业企</p><a href="javascript:;" class='more'>更多>></a>
+					</div>
+
+   			    </div>
+           	    
+				<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2222' language='javascript'></script>
+        </div>
+        </div>
+        <div class="a-main5">
+        	<h3 class="g-titles"><a target="_blank" href='javascript:;'>产品展示</a></h3>
+            
+            <div class="warp">
+                <img src="templets/default/images/sprite.png" id="leftWarp"><img src="templets/default/images/sprite1.png" id="rightWarp">
+                <div class="showWarp" id="showArea">
+                    <div class="all" id="all">
+					<a target="_blank" href="javascript:;"><img src="/uploads/allimg/180415/1-1P41514093GC.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/180415/1-1P415135455H7.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/160311/1-1603110Q2005a.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/150318/17-15031Q41629510.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/140917/18-14091F952594Z.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130826/1-130R6152014428.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130725/9-130H5140952915.jpg" width="166" height="125"></a>
+
+
+                    </div>
+                </div>
+            </div>
+			<script type="text/javascript">
+            var allDl=document.getElementById("all")//获取所所有图片的ID
+            var showArea=document.getElementById("showArea")//找到控制滚动条的id
+            var btnLeft=document.getElementById("leftWarp")
+            var btnRight=document.getElementById("rightWarp")
+            var buffer=0
+            var num=0;
+            btnLeft.onclick=function(){
+                num-=945;
+                btnRight.src="http://www.chinajsxx.com/templets/default/images/sprite1.png"
+                if(num<=0){
+                    num=0
+                    this.src="http://www.chinajsxx.com/templets/default/images/spritehover.png"
+                }
+            }
+            btnRight.onclick=function(){
+                num+=945;
+                btnLeft.src="http://www.chinajsxx.com/templets/default/images/sprite.png"
+                
+                if(num>=1890){
+                    num=1890
+                    this.src="http://www.chinajsxx.com/templets/default/images/sprite1hover.png"
+                }
+            }
+            function setArea(){
+                if(num<buffer){
+                    w=Math.floor(0.1*(num-buffer))
+                }else{
+                    w=Math.ceil(0.1*(num-buffer))
+                }
+                buffer+=w;
+                showArea.scrollLeft=buffer;	
+            }
+            setInterval(setArea,1)
+            </script>
+            
+        </div>
+    	<div class="clear"></div>
+        <div class="a-main6">
+        	<div class="a-main6-left">
+        		<h3 class="g-titles"><a target="_blank" href='javascript:;'>案例解析</a></h3>
+                <div class="clear"></div>
+                <div class="pohota">
+                
+		<div class="focus1" id="focus1">
+			<div class="pic" id="pic">
+			<dl class="dls">
+        	<dt><a target="_blank" href="javascript:;"><img src="uploads/allimg/180521/1-1P521155500Q9.jpg" width="290" height="200"></a></dt>
+            <dd>
+            	<h3><a target="_blank" href="javascript:;">江森自控携智慧医院解决方案“物联运维</a></h3>
+                <p>【建设行业.报道】(中国武汉，2018年5月21日)今日，全球智慧建筑和储能解决方案的领导者江森自控亮相于湖北武汉举办的第19届全国医院建设大会。江森自控依托全球领先的智慧建筑产品技术、强大的系统集成能力及<a href="javascript:;">更多>></a></p>
+            </dd>
+			</dl>
+<dl class="dls">
+        	<dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/170629/1-1F629110352U2.jpg" width="290" height="200"></a></dt>
+            <dd>
+            	<h3><a target="_blank" href="javascript:;">智慧养老‖案例地图‖GVS带你走进比利时</a></h3>
+                <p>【摘要】在冷暖控制上，该工程通过凿深井，充分利用夏冬季节地表的底温差来实现天然的冷暖系统，加之全屋天然木质材料的优良隔热保温功能，使得该建筑在冷暖供应方面能无限接近“零能耗”。<a href="javascript:;">更多>></a></p>
+            </dd>
+			</dl>
+<dl class="dls">
+        	<dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/141119/8-14111913525V59.jpg" width="290" height="200"></a></dt>
+            <dd>
+            	<h3><a target="_blank" href="javascript:;">史福特腾飞湖州东吴国际广场</a></h3>
+                <p>【本网讯】 288米浙江湖州双塔地标，集东吴银泰城、东吴开元名都酒店、东吴珍藏馆、观光层、城市精装公寓于一体的旗舰型综合体项目，其5A级甲级写字楼由史福特照明提供全套照明解决方案。<a href="javascript:;">更多>></a></p>
+            </dd>
+			</dl>
+<dl class="dls">
+        	<dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/141105/8-1411051FU5207.jpg" width="290" height="200"></a></dt>
+            <dd>
+            	<h3><a target="_blank" href="javascript:;">同方泰德医疗建筑节能解决方案 服务江津</a></h3>
+                <p>　【本网讯】 日前，同方泰德正就重庆市江津区中心医院节能改造项目进行专项节能服务，江津区中心医院是重庆三级甲等医院，总建筑面积11.2万平方米，开放床位925张，设有43个临床、医技科室。<a href="javascript:;">更多>></a></p>
+            </dd>
+			</dl>
+<dl class="dls">
+        	<dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/140926/18-1409261H440557.jpg" width="290" height="200"></a></dt>
+            <dd>
+            	<h3><a target="_blank" href="javascript:;">  用电不花钱 享受绿色“阳光生活” ——</a></h3>
+                <p>最近笔者朋友家的屋顶上新装了太阳能光伏发电系统，据这哥们说:“现在用电不用交电费，还能卖电。”这几年随着国内光伏屋顶技术的成熟，让离我们生活貌似很遥远的太阳能光伏发电，变得不再遥不可及。<a href="javascript:;">更多>></a></p>
+            </dd>
+			</dl>
+
+			</div>
+	<div class="btn" id="btn">
+    	<a href="#" class="carren">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+   </div>
+</div>
+<script type="text/javascript">
+/*获取该元素，改变他的top值，让对应的按钮也发生改变*/
+	var picAlls=document.getElementById("pic")//获取图片
+	var btnAs=document.getElementById("btn").getElementsByTagName("a")//找到按钮
+	var nums=0;
+	var buffers=0;//定义缓冲变量
+	function focusImg(){
+		nums-=612;
+		if(nums<(-612*4)){nums=0}//最后一个返回
+		var Anum=Math.abs(nums/612)
+		for(i in btnAs){
+			btnAs[i].className=""
+		}
+		btnAs[Anum].className="carren"
+	}
+	var timer=setInterval(focusImg,2000)
+	function setTim(){
+		if(nums<buffers){
+			w=Math.floor(0.1*(nums-buffers))//缓冲公式，负数
+		}else{
+			w=Math.ceil(0.1*(nums-buffers))//缓冲公式,正数
+		}
+		buffers+=w
+		picAlls.style.left=buffers+"px"//改变图片的yop值
+	}
+	setInterval(setTim,1)
+	for(j=0;j<btnAs.length;j++){
+		btnAs[j].onmouseover=function(){
+			clearInterval(timer)
+			nums=-(this.innerHTML-2)*612
+			focusImg()
+		}
+		btnAs[j].onmouseout=function(){
+			timer=setInterval(focusImg,2000)
+		}
+	}
+</script>
+                
+                </div>
+            </div>
+       	  <div class="a-main6-right">
+        		<h3 class="g-titles"><a target="_blank" href='javascript:;'>智慧城市</a></h3>
+      			<ul class="s-xins a-main6a">
+                    <li>·<a target="_blank" href="javascript:;">区块链赋能新型智慧城市</a></li>
+<li>·<a target="_blank" href="javascript:;">物联网开启煤气罐安全管</a></li>
+<li>·<a target="_blank" href="javascript:;">霍尼韦尔智慧建筑成就城</a></li>
+<li>·<a target="_blank" href="javascript:;">昕诺飞智能互联道路照明</a></li>
+<li>·<a target="_blank" href="javascript:;">欧司朗发布SymphoCity(TM)智</a></li>
+<li>·<a target="_blank" href="javascript:;">未来风格、智能核心,飞</a></li>
+
+                </ul>
+      			<ul class="s-xins a-main6a" style="border:none;">
+                    <li>·<a target="_blank" href="javascript:;">打造领先雇主品牌 江森</a></li>
+<li>·<a target="_blank" href="javascript:;">同方泰德：与您相约“</a></li>
+<li>·<a target="_blank" href="javascript:;">同方泰德助力 “十三五</a></li>
+<li>·<a target="_blank" href="javascript:;">同方泰德：产业整合持续</a></li>
+<li>·<a target="_blank" href="javascript:;">趋势·新思路·融合 201</a></li>
+<li>·<a target="_blank" href="javascript:;">同方泰德牵手华贸中心</a></li>
+
+                </ul>
+            	
+				<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2223' language='javascript'></script>
+           </div>
+        </div>
+		<div class="clear"></div>
+    	<div class="a-main7">
+       	  <div class="a-main7-left">
+   	 			 <div class="a-main71">
+        			<h3 class="g-titles"><a target="_blank" href='javascript:;'>常识</a></h3>
+                    <ul class="s-xins a-main6b">
+					<li>·<a target="_blank" href="javascript:;">为什么电气线路中铝线比铜线更容易</a></li>
+<li>·<a target="_blank" href="javascript:;">Ability讲堂开课啦-中低压配电设备测</a></li>
+<li>·<a target="_blank" href="javascript:;">简单几招,教你判断自家需不需要装新</a></li>
+<li>·<a target="_blank" href="javascript:;">安装新风系统，和房间异味说再见！</a></li>
+<li>·<a target="_blank" href="javascript:;">真正的智能家居应该能够说“NO”</a></li>
+<li>·<a target="_blank" href="javascript:;">温室气体减排协议倒逼我国经济升级</a></li>
+
+                    </ul>
+                </div>
+   	  			<div class="a-main71">
+        			<h3 class="g-titles"><a target="_blank" href='javascript:;'>解决方案</a></h3>
+                    <ul class="s-xins a-main6b">
+                        <li>·<a target="_blank" href="javascript:;">ABB助力电气产品分销商众业达实现配</a></li>
+<li>·<a target="_blank" href="javascript:;">捷顺科技在京发布行业方案， 智能建</a></li>
+<li>·<a target="_blank" href="javascript:;">中国工程院院士沈昌祥：深谈物联网</a></li>
+<li>·<a target="_blank" href="javascript:;">海林节能与各地总代续约，战略合作</a></li>
+<li>·<a target="_blank" href="javascript:;">施耐德电气赋能中国巨石智能配电升</a></li>
+<li>·<a target="_blank" href="javascript:;">为柔性制造提供更智能、更稳定的配</a></li>
+
+                    </ul>
+                </div>
+            	
+				<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2224' language='javascript'></script>
+				
+             </div>
+            <img src="templets/default/images/fenge.jpg" class="fenge">
+            <div class="a-main7-right">
+       		  <h3 class="g-titles"><a target="_blank" href='javascript:;'>展会信息</a></h3>
+			  <dl>
+               	  <dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/200510/1-200510112245457.jpg" width="165" height="85"></a></dt>
+                  <dd>导读：会展活动解禁，IOTE如期登场，助力企业掘金万亿级的物联网市场!昨日<a href="javascript:;">更多>></a></dd>
+              </dl>
+
+      			<ul class="s-xins a-main6a">
+                    <li>·<a target="_blank" href="javascript:;">国务院最新发文，物联网</a></li>
+<li>·<a target="_blank" href="javascript:;">全球LED行业“风向标”盛</a></li>
+<li>·<a target="_blank" href="javascript:;">2020年最值得期待的LED展</a></li>
+<li>·<a target="_blank" href="javascript:;">耐克森亮相2019中国国际</a></li>
+<li>·<a target="_blank" href="javascript:;">官宣：IOTE 2020物联网展正</a></li>
+
+                </ul>
+      			<ul class="s-xins a-main6a" style="border:none;">
+                    <li>·<a target="_blank" href="javascript:;">高交会：建筑科技点亮生</a></li>
+<li>·<a target="_blank" href="javascript:;">官宣【2019第15届国际锅炉</a></li>
+<li>·<a target="_blank" href="javascript:;">2019山西暖通展火热开幕</a></li>
+<li>·<a target="_blank" href="javascript:;">找供热设备？找锅炉？找</a></li>
+<li>·<a target="_blank" href="javascript:;">紧急扩散!2019第15届国际</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+		<!--footer start-->
+		<div class="s-mian11">
+            <h3 class="s-titles">合作企业</h3>
+            <ul class="s-mian11h">
+                
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1301241154581412.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1305201721442234.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003211240001109.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1402131300134152.gif' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003211231298942.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1308221542353067.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1309051200397632.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1302021850197201.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1402111446324820.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1303211758463291.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1303211804024072.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1303211806011040.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003111821053160.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1303221313001461.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003211247172621.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1402131258434372.gif' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003111817023092.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/1809071143245412.jpg' width='88' height='31' border='0'></a> </li>
+				
+            </ul>
+        </div> 
+		</div>
+		<div class="clear"></div>
+		<div class="clear"></div>
+	<div class="footer" style="margin-top:10px;">
+    	<div class="footer-main">
+        	<ul>
+            	<li class="none"><a href="gywm/index.html">关于我们</a></li>
+				<li><a href="lxwm/index.html">联系我们</a></li>
+				<li><a href="kdgg/index.html">刊登广告</a></li>
+				<li><a href="flsm/index.html">法律声明</a></li>
+				<li><a href="index10.html">合作中心</a></li>
+				<li><a href="data/sitemap.html">网站地图</a></li>
+            </ul>
+            <div class="bottom" style='float:left;margin-left:120px;'>
+            	<img src="templets/default/images/footer-logo.jpg">
+                <p class="font-top">Copyright @ 2013 海南建设信息网 版权所有 <a href="javascript:;" target="_blank">
+					备案号:京ICP备20024077号-1</a><br>
+                <a target="_blank" href="byls/index.html"> 法律顾问;山东贯球律师事务所  尹有林律师 </a>&nbsp;&nbsp;<a target="_blank" href="javascript:;"> 技术支持：亿睿鸿翔 QQ：435093332 </a> </p>
+				<p><script src="stat-5319148_5319148_pic.js" language="JavaScript"></script></p>
+            </div>
+			<img src="templets/default/images/weibo.jpg" width='126px' height='103px' style='float:right;'>
+			<img src="templets/default/images/weixin.jpg" width='126px' height='103px' style='float:right;'>
+        </div>
+    </div>
+<!--footer end-->
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254149112'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1254149112' type='text/javascript'%3E%3C/script%3E"));</script>
+
+
+		
+<script language="javascript" src="templets/default/js/scroll.js" type="text/javascript"></script>
+    
+</body>
+</html>
+

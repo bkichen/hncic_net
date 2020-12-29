@@ -1,0 +1,536 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>政策法规 /  / 地方性法规_海南建设信息网</title>
+<meta name="keywords" content="海南建设信息网,建设行业信息,建设行业,建筑行业,建设信息,中国建设行业,中国建设,中国建筑,工程建设,建筑信息,中国城镇,房地产,装饰装修,建筑电气,基础建设,施工安全,建筑项目,施工技术,招标投标,建筑设计,设计师,全国建筑业">
+<meta name="description" content="海南建设信息网是由住建部下属行业媒体联合创建。实时发布全面、准确、客观的建设行业信息，为企事业单位提供资讯，打造中国建设行业有影响力的信息交流平台。是企事业单位对外宣传阵地，是广大建设者传播信息交流经验窗口，是新闻宣传、行业监督平台，是社会公众获取行业资讯渠道。围绕工程建设、基础建设、工程机械、房地产、装饰建材、勘察设计、建筑信息化、招标投标等重大问题，加强宣传报道，发挥行业网络媒体的重要作用。">
+<link href="../../templets/default/css/list.css" rel="stylesheet" type="text/css">
+<script src="../../templets/default/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+	var inow =0;
+	var len =$('.ul1 li').length;
+	$('.ul1 a').each(function(i){
+		$(this).hover(function(){
+		inow=i;
+		clearInterval(t);
+		$(this).addClass('active').parent().siblings().children().removeClass('active');
+		$('.Bbox').hide().eq(i).fadeIn();
+		$('.Sbox').stop(true,false).animate({
+			bottom:'-100px'	
+		},0).animate({
+			bottom:0
+			},500)
+		},function(){
+			StarMove()	
+		})
+	})	
+	
+	StarMove()
+	
+	$('.Bbox').hover(function(){
+		clearInterval(t);	
+	},function(){
+	StarMove()
+	})
+	
+	function StarMove(){
+		t=setInterval(function(){
+		inow++
+		if(inow>len-1){inow=0;}
+		$('.ul1 li a').eq(inow).addClass('active').parent().siblings().children().removeClass('active');
+		$('.Bbox').hide().eq(inow).stop(true,false).fadeIn();
+		$('.Sbox').stop(true,false).animate({
+			bottom:'-100px'	
+		},0).animate({
+			bottom:0
+			},500)
+	},2000)
+}
+	
+})
+
+
+</script>
+</head>
+<body>
+	 ﻿<script>
+function show(){
+var date = new Date(); //日期对象
+var now = "";
+now = date.getFullYear()+"年"; //读英文就行了
+now = now + (date.getMonth()+1)+"月"; //取月的时候取的是当前月-1如果想取当前月+1就可以了
+now = now + date.getDate()+"日";
+now = now + date.getHours()+"时";
+now = now + date.getMinutes()+"分";
+now = now + date.getSeconds()+"秒";
+document.getElementById("nowDiv").innerHTML = now; //div的html是now这个字符串 
+setTimeout("show()",1000); //设置过1000毫秒就是1秒，调用show方法
+}
+</script>
+<div class="s-wrap">
+    	<div class="s-top">	
+            <div class="sq-mains">
+                <p class="s-p1">欢迎光临海南建设信息网！</p>
+                <form>
+				<table width="600" border="0" cellspacing="0" cellpadding="0" height='28px'>
+					<tr>
+					<td height="30" width="450">
+					<iframe width="450" scrolling="no" height="15" frameborder="0" allowtransparency="true" src="javascript:;"></iframe>
+					</td>
+					<td height="30">
+					<span id="localtime" style="margin-left:20px;"></span>
+					<script type="text/javascript">
+					function showLocale(objD)
+					{
+						var str,colorhead,colorfoot;
+						var yy = objD.getYear();
+						if(yy<1900) yy = yy+1900;
+						var MM = objD.getMonth()+1;
+						if(MM<10) MM = '0' + MM;
+						var dd = objD.getDate();
+						if(dd<10) dd = '0' + dd;
+						var hh = objD.getHours();
+						if(hh<10) hh = '0' + hh;
+						var mm = objD.getMinutes();
+						if(mm<10) mm = '0' + mm;
+						var ss = objD.getSeconds();
+						if(ss<10) ss = '0' + ss;
+						var ww = objD.getDay();
+						if  ( ww==0 )  colorhead="<font color=\"#FF0000\">";
+						if  ( ww > 0 && ww < 6 )  colorhead="<font color=\"#373737\">";
+						if  ( ww==6 )  colorhead="<font color=\"#008000\">";
+						if  (ww==0)  ww="星期日";
+						if  (ww==1)  ww="星期一";
+						if  (ww==2)  ww="星期二";
+						if  (ww==3)  ww="星期三";
+						if  (ww==4)  ww="星期四";
+						if  (ww==5)  ww="星期五";
+						if  (ww==6)  ww="星期六";
+						colorfoot="</font>"
+						str = colorhead + yy + "-" + MM + "-" + dd + " " + hh + ":" + mm + ":" + ss + "  " + colorfoot;
+						return(str);
+					}
+					function tick()
+					{
+						var today;
+						today = new Date();
+						document.getElementById("localtime").innerHTML = showLocale(today);
+						window.setTimeout("tick()", 1000);
+					}
+					tick();
+					</script>
+					</td>
+					</tr>
+				</table>
+                </form>
+                <p class="s-p2"><a href="" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.chinajsxx.com');">设为首页</a>&nbsp;&nbsp; <a href="javascript:window.external.AddFavorite('http://www.chinajsxx.com','海南建设信息网')">加入收藏</a></p>
+            </div>
+        </div>
+        <div class="s-logos">
+        	<a href="../../index.html" target="_blank"><img src="../../templets/default/images/logo.jpg" class="logo"></a>
+            <div class="logo-right">
+			 <form name="formsearch" action="http://www.chinajsxx.com/plus/search.php">
+                <div class="top-left">
+					<div style='height:60px;'>
+					<input type="hidden" name="kwtype" value="0">
+					<input name="q" type="text" class="forms" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}" onblur="if(this.value==''){this.value='在这里搜索...';}">
+					<button type="submit" class="search-submit">搜索</button>
+					</div>
+                    <p class="s-psh"><span>热门搜索：</span> <a href='../../plus/search-0_E68B9BE6A087E68A95E6A08.html' target="_blank">招标投标</a> <a href='../../plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">城乡规划</a> <a href='../../plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">工程建设</a> <a href='../../plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">工程机械</a> <a href='../../plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">房地产</a> <a href='../../plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">建筑信息化</a> <a href='../../plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">建筑电气</a> </p>
+                </div>
+			</form>
+                <img src="../../templets/default/images/phones.jpg" class="phones">
+                <div class="logo-right-botm2">
+               	 	 <marquee scrolldelay="100"><a target="_blank" href="../../55968.html">新纪录！中国重汽年产销商用车突破50万辆</a>&nbsp;&nbsp;
+<a target="_blank" href="../../55948.html">“十四五”大展宏图：潍柴动力披露再融资方案</a>&nbsp;&nbsp;
+</marquee>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+        	<div class="nav-main">
+            	<a href="../../index.html"><img src="../../templets/default/images/nav-sy.jpg" class="sy" title="海南建设信息网"></a>
+                 <ul class="borders">
+                	<li class="te"><a href="../../index1.html">新闻</a></li>
+                	<li><a href="../index.html">政策法规</a></li>
+                	<li><a href="../../index2.html">城乡规划</a></li>
+                	<li><a href="../../index3.html">勘察设计</a></li>
+                	<li><a href="../../index4.html">招标投标</a></li>
+                	<li><a href="../../index5.html" class="lettes">工程建设</a></li>
+                	<li><a href="../../index6.html">工程机械</a></li>
+                	<li><a href="../../index7.html">房 地 产</a></li>
+                	<li><a href="../../index8.html">建筑部品</a></li>
+                	<li><a href="../../index9.html">装饰·装修</a></li>
+                	<li><a href="../../index10.html">合作中心</a></li>
+                </ul>
+                <ul class="borders bord">
+                	<li class="te"><a href="../../index11.html">图库</a></li>
+                	<li><a href="../../index12.html">中国城镇</a></li>
+                	<li><a href="../../index13.html">环保科技</a></li>
+                	<li><a href="../../index14.html">基础建设</a></li>
+                	<li><a href="../../index15.html">建筑电气</a></li>
+                	<li><a href="../../index16.html">建筑信息化</a></li>
+                	<li><a href="../../index17.html">专家论道</a></li>
+                	<li><a href="../../index18.html">名企精英</a></li>
+                	<li><a href="../../index19.html">热点话题</a></li>
+                	<li><a href="../../index20.html">质量·安全</a></li>
+                	<li><a href="../../lxwm/index.html">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+<div class="main">
+	<div class="left1">
+    	<h3 class="list-h3sj"> <a href='../../index.html'>首页</a>>><a href='../index.html'>政策法规</a>>><a href=''>地方性法规</a>>></h3>
+		 <ul class="list">
+			<li class="tit"><a href="53113.html"><b>广东省实施《中华人民共和国招标投标法》办法（修订）</b></a></li>
+			<li class="content">广东省实施《中华人民共和国招标投标法》办法（修订）... <a href="53113.html">[查看全文]</a></li>
+			<li class="time">发布时间：2020-04-09 19:11:11</li>
+		</ul><ul class="list">
+			<li class="tit"><a href="10000.html"><b>河北秦皇岛自8月1日起新建建筑须执行绿色建筑标准</b></a></li>
+			<li class="content"> 自8月1日起，秦皇岛市多个类型新建建筑将必须按照绿色建筑标准设计、建造。日前，秦皇岛下发《关于大力推进绿色建筑发展的实施意见》（下称《意见》）发展绿色建筑，提高城市生态文明水平，促进城乡建设模式转型升级。
+... <a href="10000.html">[查看全文]</a></li>
+			<li class="time">发布时间：2013-08-26 16:12:04</li>
+		</ul><ul class="list">
+			<li class="tit"><a href="7885.html"><b>广西编制城镇住房发展规划</b></a></li>
+			<li class="content">   日前，《广西壮族自治区城镇住房发展规划（2011-2015年）》（以下简称《发展规划》）专家评审会在广西壮族自治区南宁市举行，会议原则通过了《发展规划》。根据专家意见进行最后一轮修改和完善后，将报自治区人民政府审定。自治区住房和城乡建设厅副厅长金昌宁出席评审会。... <a href="7885.html">[查看全文]</a></li>
+			<li class="time">发布时间：2013-07-22 08:52:44</li>
+		</ul><ul class="list">
+			<li class="tit"><a href="7883.html"><b>湖北低能耗住房设计标准出炉</b></a></li>
+			<li class="content">近日，《湖北省低能耗居住建筑设计标准》正式出台并将于10月1日起执行。... <a href="7883.html">[查看全文]</a></li>
+			<li class="time">发布时间：2013-07-22 08:50:00</li>
+		</ul><ul class="list">
+			<li class="tit"><a href="7880.html"><b>四川出台绿色建筑行动方案</b></a></li>
+			<li class="content"> 近日，四川省制定并公布了《四川省绿色建筑行动实施方案》（以下简称《方案》）。《方案》对总体要求、主要目标、重点任务和保障措施等进行了明确。... <a href="7880.html">[查看全文]</a></li>
+			<li class="time">发布时间：2013-07-22 08:47:02</li>
+		</ul><ul class="list">
+			<li class="tit"><a href="7879.html"><b>武汉为历史文化名镇名村建声像档案</b></a></li>
+			<li class="content">大型系列电视纪录片《武汉魅力镇村》近日开机拍摄。今年6月，湖北省武汉市城市建设档案馆邀请相关专家、学者撰稿，采用档案式纪录片拍摄手法，对武汉历史文化名镇名村进行科学记录，抢救武汉现有村落及其乡土建筑、乡土文化和非物质文化遗产。... <a href="7879.html">[查看全文]</a></li>
+			<li class="time">发布时间：2013-07-22 08:45:23</li>
+		</ul><ul class="list">
+			<li class="tit"><a href="7878.html"><b>内蒙古要求各地做好保障房建设分配工作</b></a></li>
+			<li class="content">近日，内蒙古自治区住房城乡建设厅下发通知，要求各地加快提高保障房入住率，增加保障房有效供应，及时跟进和完善基础服务设施... <a href="7878.html">[查看全文]</a></li>
+			<li class="time">发布时间：2013-07-22 08:44:08</li>
+		</ul><ul class="list">
+			<li class="tit"><a href="7877.html"><b>北京提高廉租房租金补贴</b></a></li>
+			<li class="content">按照北京市住房城乡建设委日前发布的消息，从7月1日起，城六区和相关远郊区县住保部门将按照调整后的城市低保标准，核定廉租房租房补贴家庭的租房补贴金额及实物配租家庭的实缴月租金。... <a href="7877.html">[查看全文]</a></li>
+			<li class="time">发布时间：2013-07-22 08:41:25</li>
+		</ul>
+        <ul class="yeshu">
+            <li><span class="pageinfo">共 <strong>1</strong>页<strong>8</strong>条记录</span></li>
+
+        </ul>
+        
+	</div>
+	<div class="right1">
+		<div class="tu"><script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2312' language='javascript'></script></div>
+        <div class="clear"></div>
+		<div class="hot">
+			<h3 class="redian"><span>热点资讯</span></h3>
+			<ul>
+				<li class='li1'>
+					<a target="_blank" href="../../55968.html">新纪录！中国重汽年产销商用车突破</a>
+					</li>
+<li class='li2'>
+					<a target="_blank" href="../../55965.html">年产百万台规模下的潍柴制造</a>
+					</li>
+<li class='li3'>
+					<a target="_blank" href="../../55962.html">100万台！攻主业的潍柴，攻出行业新高</a>
+					</li>
+<li class='li4'>
+					<a target="_blank" href="../../55963.html">深度解读潍柴产销突破100万台背后的底</a>
+					</li>
+<li class='li5'>
+					<a target="_blank" href="../../55960.html">全球第一！ 潍柴2020年产销发动机突破</a>
+					</li>
+<li class='li6'>
+					<a target="_blank" href="../../55956.html">中国工业“奥斯卡”!三一荣获“中国</a>
+					</li>
+<li class='li7'>
+					<a target="_blank" href="../../55955.html">同心克难再腾飞，携手齐心冲万台——</a>
+					</li>
+<li class='li8'>
+					<a target="_blank" href="../../55953.html">黄黄铁路控制性工程浠水特大桥 连续</a>
+					</li>
+<li class='li9'>
+					<a target="_blank" href="../../55951.html">消防救援 得力干将 曼恩全新一代TG在</a>
+					</li>
+<li class='li10'>
+					<a target="_blank" href="../../55948.html">“十四五”大展宏图：潍柴动力披露再</a>
+					</li>
+
+			</ul>
+		</div>
+		
+<div class="xiaoguos">
+	<h3 class="rediana"><img src="../../templets/default/images/uhw.jpg" width="15" height="15"><span><a target="_blank" href='../../index11.html'>热门图集</a></span></h3>
+    <div class="box">
+      <div class="Bbox" style="display:block;">
+		<dl class="woqi">
+            	<dt><a target="_blank" href="../../2020/1216/55818.html"><img src="../..//uploads/allimg/201216/1-2012160R249-lp.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2020/1216/55818.html">哈尔滨：冰雪大世</a></dd>
+            </dl>
+<dl class="woqi">
+            	<dt><a target="_blank" href="../../2020/0417/53228.html"><img src="../..//uploads/allimg/200417/1-20041G02542-lp.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2020/0417/53228.html">日照港运转“加速</a></dd>
+            </dl>
+<dl class="woqi">
+            	<dt><a target="_blank" href="../../2020/0414/53157.html"><img src="../..//uploads/allimg/200414/1-2004140Q329-lp.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2020/0414/53157.html">云南墨临公路建设</a></dd>
+            </dl>
+<dl class="woqi">
+            	<dt><a target="_blank" href="../../2020/0227/52516.html"><img src="../..//uploads/allimg/200227/1-20022G240280-L.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2020/0227/52516.html">粤港澳大湾区重点</a></dd>
+            </dl>
+
+      </div>
+        <div class="Bbox">
+			<dl class="woqi">
+            	<dt><a target="_blank" href="../../2020/0211/52337.html"><img src="../..//uploads/200211/1-200211145113536.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2020/0211/52337.html">武汉客厅“方舱医</a></dd>
+            </dl>
+<dl class="woqi">
+            	<dt><a target="_blank" href="../../2020/0116/52173.html"><img src="../..//uploads/allimg/200116/1-200116205A3-lp.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2020/0116/52173.html">图片故事：“90后</a></dd>
+            </dl>
+<dl class="woqi">
+            	<dt><a target="_blank" href="../../2019/1210/51656.html"><img src="../..//uploads/allimg/191210/1-1912101UR30-L.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2019/1210/51656.html">俯瞰南水北调中线</a></dd>
+            </dl>
+<dl class="woqi">
+            	<dt><a target="_blank" href="../../2019/1129/51499.html"><img src="../..//uploads/allimg/191129/1-19112Z932120-L.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2019/1129/51499.html">山东港口青岛港全</a></dd>
+            </dl>
+
+        </div>
+        <div class="Bbox">
+			<dl class="woqi">
+            	<dt><a target="_blank" href="../../2019/1127/51476.html"><img src="../..//uploads/allimg/191127/1-19112G323560-L.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2019/1127/51476.html">日兰高铁日曲段建</a></dd>
+            </dl>
+<dl class="woqi">
+            	<dt><a target="_blank" href="../../2019/1122/51419.html"><img src="../..//uploads/allimg/191122/1-1911221Q5180-L.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2019/1122/51419.html">深中通道架设首片</a></dd>
+            </dl>
+<dl class="woqi">
+            	<dt><a target="_blank" href="../../2018/1221/47916.html"><img src="../..//uploads/allimg/181221/17-1Q221105409-lp.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2018/1221/47916.html">北京大兴国际机场</a></dd>
+            </dl>
+<dl class="woqi">
+            	<dt><a target="_blank" href="../../2016/1014/39285.html"><img src="../..//uploads/allimg/161014/1-161014104P2-lp.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2016/1014/39285.html">美丽的厦门演武大</a></dd>
+            </dl>
+
+        </div>
+        <div class="Bbox">
+			<dl class="woqi">
+            	<dt><a target="_blank" href="../../2015/0427/32679.html"><img src="../..//uploads/allimg/150427/17_1628149041.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2015/0427/32679.html">房山最大的综合商</a></dd>
+            </dl>
+<dl class="woqi">
+            	<dt><a target="_blank" href="../../2015/0302/31223.html"><img src="../..//uploads/150302/18-15030213595a55.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2015/0302/31223.html">2015全国两会：北京</a></dd>
+            </dl>
+<dl class="woqi">
+            	<dt><a target="_blank" href="../../2014/0822/25649.html"><img src="../../uploads/140822/8-140R215321b12.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2014/0822/25649.html">浙江绍兴东湖景区</a></dd>
+            </dl>
+<dl class="woqi">
+            	<dt><a target="_blank" href="../../2014/0820/25549.html"><img src="../../uploads/allimg/140820/17-140R0111G1P1.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2014/0820/25549.html">夏季出游哪里去，</a></dd>
+            </dl>
+
+        </div>
+        <div class="Bbox">
+			<dl class="woqi">
+            	<dt><a target="_blank" href="../../2014/0804/25080.html"><img src="../../uploads/140804/8-140P41F014351.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2014/0804/25080.html">2014绿地启航国际发</a></dd>
+            </dl>
+<dl class="woqi">
+            	<dt><a target="_blank" href="../../2014/0801/24971.html"><img src="../../uploads/140801/8-140P109263c61.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2014/0801/24971.html">杭州地铁附近路面</a></dd>
+            </dl>
+<dl class="woqi">
+            	<dt><a target="_blank" href="../../2014/0730/24884.html"><img src="../../uploads/140730/8-140I00Z214501.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2014/0730/24884.html">南京十年烂尾楼糊</a></dd>
+            </dl>
+<dl class="woqi">
+            	<dt><a target="_blank" href="../../2014/0725/24735.html"><img src="../../uploads/140725/8-140H514050TN.jpg" width="134" height="115"></a></dt>
+                <dd><a target="_blank" href="../../2014/0725/24735.html">重庆在建水上“豪</a></dd>
+            </dl>
+
+        </div>
+    </div>
+    <ul class="ul1">
+        <li><a href="#" class="active"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+    </ul>
+</div>        
+        
+        
+        
+		<div class="hot hot2">
+			<h3 class="redian"><span>品牌推荐</span></h3>
+			<div class="tuji">
+				<ul>
+				 
+					<li><a href='javascript:;' target='_blank'><img src='../../uploads/flink/1308291131051849.jpg' width='88' height='31' border='0'></a> </li>
+				 
+					<li><a href='javascript:;' target='_blank'><img src='../../uploads/flink/1308291152471175.jpg' width='88' height='31' border='0'></a> </li>
+				 
+					<li><a href='javascript:;' target='_blank'><img src='../../uploads/flink/1308291154089556.jpg' width='88' height='31' border='0'></a> </li>
+				 
+					<li><a href='javascript:;' target='_blank'><img src='../../uploads/flink/1308291155482972.jpg' width='88' height='31' border='0'></a> </li>
+				 
+					<li><a href='javascript:;' target='_blank'><img src='../../uploads/flink/1308291157406016.jpg' width='88' height='31' border='0'></a> </li>
+				 
+					<li><a href='javascript:;' target='_blank'><img src='../../uploads/flink/1308291200023026.jpg' width='88' height='31' border='0'></a> </li>
+				 
+					<li><a href='javascript:;' target='_blank'><img src='../../uploads/flink/1308291202061610.jpg' width='88' height='31' border='0'></a> </li>
+				 
+					<li><a href='javascript:;' target='_blank'><img src='../../uploads/flink/1308291203187268.jpg' width='88' height='31' border='0'></a> </li>
+				 
+					<li><a href='javascript:;' target='_blank'><img src='../..//uploads/flink/2004061343095800.png' width='88' height='31' border='0'></a> </li>
+				 
+					<li><a href='javascript:;' target='_blank'><img src='../..//uploads/flink/2004061343453197.png' width='88' height='31' border='0'></a> </li>
+				 
+					<li><a href='javascript:;' target='_blank'><img src='../../uploads/flink/1309031715458178.jpg' width='88' height='31' border='0'></a> </li>
+				 
+					<li><a href='javascript:;' target='_blank'><img src='../../uploads/flink/1309031733212849.jpg' width='88' height='31' border='0'></a> </li>
+				
+				</ul>
+			  </div>
+		</div>
+		 <div class="tu"><script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2313' language='javascript'></script></div> 
+	</div>
+    <div class="clear"></div>
+	
+﻿<div class="s-mian12" style="margin-top:10px;float:left;">
+            <h3 class="s-titles9">友情链接</h3>
+			<ul class="s-lan">
+            	 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国建筑</a> 
+				 
+				&nbsp;|&nbsp;<a href='../../index15.html' target='_blank'>中国建筑电气网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国铁建</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>第一商用汽车网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国建筑新闻</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>数字化企业网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国施工企业网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国项目招标网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国建筑装饰网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>贯球律师事务所</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>山西建筑考试</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>陕西市政</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>建筑材料价格</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>建筑施工</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国交建</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国地板网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>家居中国</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国装饰网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>工程机械在线网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国美丽乡村</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>城市交通网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国行业经济网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>我的建筑网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国路桥网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>路桥英才网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>微信排行榜</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>绿建之窗网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>鲁班大学</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>一览路桥网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中机经</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>星播网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>新型建材</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>建设发展</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国电建</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国茶叶</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>机惠网</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>话梅糖</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>冶金工业</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国木业</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>云展联盟</a> 
+				 
+				&nbsp;|&nbsp;<a href='javascript:;' target='_blank'>中国名企排行</a> 
+				
+            </ul>
+        </div>
+</div>
+    <div class="footer">
+    	<div class="footer-main">
+        	<ul>
+            	<li class="none"><a href="../../gywm/index.html">关于我们</a></li>
+				<li><a href="../../lxwm/index.html">联系我们</a></li>
+				<li><a href="../../kdgg/index.html">刊登广告</a></li>
+				<li><a href="../../flsm/index.html">法律声明</a></li>
+				<li><a href="../../index10.html">合作中心</a></li>
+				<li><a href="../../data/sitemap.html">网站地图</a></li>
+            </ul>
+            <div class="bottom" style='float:left;margin-left:120px;'>
+            	<img src="../../templets/default/images/footer-logo.jpg">
+               <div style="width:300px;margin:0 auto; padding:20px 0;">
+		 		<a target="_blank" href="javascript:;" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="" style="float:left;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">京公网安备 11011102000942号</p></a>
+		 	</div> <p class="font-top">Copyright @ 2013 海南建设信息网 版权所有 <a href="javascript:;" target="_blank">
+				备案号:京ICP备20024077号-12</a><br>
+                <a target="_blank" href="../../byls/index.html"> 法律顾问;山东贯球律师事务所  尹有林律师 </a>&nbsp;&nbsp;<a target="_blank" href="javascript:;"> 技术支持：亿睿鸿翔 QQ：435093332 </a> </p>
+				<p><script src="../../stat-5319148_5319148_pic.js" language="JavaScript"></script></p>
+                <div style="margin:0 auto;">
+                    <a target="_blank" href="javascript:;" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="../../templets/default/images/gatb.png" style="float:left;">
+                        <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">京公网安备
+                            11011102000942号</p></a>
+                </div>
+            </div>
+			<img src="../../templets/default/images/weibo.jpg" width='126px' height='103px' style='float:right;'>
+			<img src="../../templets/default/images/weixin.jpg" width='126px' height='103px' style='float:right;'>
+        </div>
+    </div>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254149112'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1254149112' type='text/javascript'%3E%3C/script%3E"));</script>
+
+
+
+</body>
+</html>

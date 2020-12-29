@@ -1,0 +1,807 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>装饰•装修_海南建设信息网</title>
+<meta name="keywords" content="装饰装修,装饰装修招标咨询,装饰装修行业资讯,装饰装修行业标准,装饰装修质量维权,装饰装修业主装修,装饰装修装修百科">
+<meta name="description" content="">
+<link href="templets/default/css/decoration.css" rel="stylesheet">
+
+<script src="templets/default/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="templets/default/js/jquery.KinSlideshow-1.2.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="templets/default/js/Ublue-jQueryTabs-1.1.js"></script>
+<script src="templets/default/js/ublue_ImageCarousel.js"></script>
+
+<script type="text/javascript">
+$(function(){
+	$("#KinSlideshow").KinSlideshow();
+})
+</script>
+<script>
+$(function() {
+	$("#demoA").ublue_ImageCarousel({
+		ubAuto:"off" // 取消自动滚动
+	});
+});
+</script>
+
+<script type="text/javascript">
+$(function(){
+	$(".tabs").UblueTabs(); //默认调用方法
+
+	$(".custom").UblueTabs({ //自定义选项卡区域
+	tabsTit:"customTit", //自定义标签区域
+	tabsTab:"customTab", //自定义标签
+	tabsCon:"customCon", //自定义内容区域
+	tabsList:"customList", //自定义内容列表
+	tabsHover:"customHover", //自定义鼠标点击后样式
+	eventType:"click" //鼠标经过标签切换内容 -- 此处不写则默认为hover事件 当然也可以把这里的click改成hover
+	});
+});
+</script>
+
+
+</head>
+
+<body>
+	﻿<script>
+function show(){
+var date = new Date(); //日期对象
+var now = "";
+now = date.getFullYear()+"年"; //读英文就行了
+now = now + (date.getMonth()+1)+"月"; //取月的时候取的是当前月-1如果想取当前月+1就可以了
+now = now + date.getDate()+"日";
+now = now + date.getHours()+"时";
+now = now + date.getMinutes()+"分";
+now = now + date.getSeconds()+"秒";
+document.getElementById("nowDiv").innerHTML = now; //div的html是now这个字符串 
+setTimeout("show()",1000); //设置过1000毫秒就是1秒，调用show方法
+}
+</script>
+<div class="s-wrap">
+    	<div class="s-top">	
+            <div class="sq-mains">
+                <p class="s-p1">欢迎光临海南建设信息网！</p>
+                <form>
+				<table width="600" border="0" cellspacing="0" cellpadding="0" height='28px'>
+					<tr>
+					<td height="30" width="450">
+					<iframe width="450" scrolling="no" height="15" frameborder="0" allowtransparency="true" src="javascript:;"></iframe>
+					</td>
+					<td height="30">
+					<span id="localtime" style="margin-left:20px;"></span>
+					<script type="text/javascript">
+					function showLocale(objD)
+					{
+						var str,colorhead,colorfoot;
+						var yy = objD.getYear();
+						if(yy<1900) yy = yy+1900;
+						var MM = objD.getMonth()+1;
+						if(MM<10) MM = '0' + MM;
+						var dd = objD.getDate();
+						if(dd<10) dd = '0' + dd;
+						var hh = objD.getHours();
+						if(hh<10) hh = '0' + hh;
+						var mm = objD.getMinutes();
+						if(mm<10) mm = '0' + mm;
+						var ss = objD.getSeconds();
+						if(ss<10) ss = '0' + ss;
+						var ww = objD.getDay();
+						if  ( ww==0 )  colorhead="<font color=\"#FF0000\">";
+						if  ( ww > 0 && ww < 6 )  colorhead="<font color=\"#373737\">";
+						if  ( ww==6 )  colorhead="<font color=\"#008000\">";
+						if  (ww==0)  ww="星期日";
+						if  (ww==1)  ww="星期一";
+						if  (ww==2)  ww="星期二";
+						if  (ww==3)  ww="星期三";
+						if  (ww==4)  ww="星期四";
+						if  (ww==5)  ww="星期五";
+						if  (ww==6)  ww="星期六";
+						colorfoot="</font>"
+						str = colorhead + yy + "-" + MM + "-" + dd + " " + hh + ":" + mm + ":" + ss + "  " + colorfoot;
+						return(str);
+					}
+					function tick()
+					{
+						var today;
+						today = new Date();
+						document.getElementById("localtime").innerHTML = showLocale(today);
+						window.setTimeout("tick()", 1000);
+					}
+					tick();
+					</script>
+					</td>
+					</tr>
+				</table>
+                </form>
+                <p class="s-p2"><a href="" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.chinajsxx.com');">设为首页</a>&nbsp;&nbsp; <a href="javascript:window.external.AddFavorite('http://www.chinajsxx.com','海南建设信息网')">加入收藏</a></p>
+            </div>
+        </div>
+        <div class="s-logos">
+        	<a href="index.html" target="_blank"><img src="templets/default/images/logo.jpg" class="logo"></a>
+            <div class="logo-right">
+			 <form name="formsearch" action="http://www.chinajsxx.com/plus/search.php">
+                <div class="top-left">
+					<div style='height:60px;'>
+					<input type="hidden" name="kwtype" value="0">
+					<input name="q" type="text" class="forms" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}" onblur="if(this.value==''){this.value='在这里搜索...';}">
+					<button type="submit" class="search-submit">搜索</button>
+					</div>
+                    <p class="s-psh"><span>热门搜索：</span> <a href='plus/search-0_E68B9BE6A087E68A95E6A08.html' target="_blank">招标投标</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">城乡规划</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">工程建设</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">工程机械</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">房地产</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">建筑信息化</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">建筑电气</a> </p>
+                </div>
+			</form>
+                <img src="templets/default/images/phones.jpg" class="phones">
+                <div class="logo-right-botm2">
+               	 	 <marquee scrolldelay="100"><a target="_blank" href="55968.html">新纪录！中国重汽年产销商用车突破50万辆</a>&nbsp;&nbsp;
+<a target="_blank" href="55948.html">“十四五”大展宏图：潍柴动力披露再融资方案</a>&nbsp;&nbsp;
+</marquee>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+        	<div class="nav-main">
+            	<a href="index.html"><img src="templets/default/images/nav-sy.jpg" class="sy" title="海南建设信息网"></a>
+                 <ul class="borders">
+                	<li class="te"><a href="index1.html">新闻</a></li>
+                	<li><a href="zhengcefagui/index.html">政策法规</a></li>
+                	<li><a href="index2.html">城乡规划</a></li>
+                	<li><a href="index3.html">勘察设计</a></li>
+                	<li><a href="index4.html">招标投标</a></li>
+                	<li><a href="index5.html" class="lettes">工程建设</a></li>
+                	<li><a href="index6.html">工程机械</a></li>
+                	<li><a href="index7.html">房 地 产</a></li>
+                	<li><a href="index8.html">建筑部品</a></li>
+                	<li><a href="">装饰·装修</a></li>
+                	<li><a href="index10.html">合作中心</a></li>
+                </ul>
+                <ul class="borders bord">
+                	<li class="te"><a href="index11.html">图库</a></li>
+                	<li><a href="index12.html">中国城镇</a></li>
+                	<li><a href="index13.html">环保科技</a></li>
+                	<li><a href="index14.html">基础建设</a></li>
+                	<li><a href="index15.html">建筑电气</a></li>
+                	<li><a href="index16.html">建筑信息化</a></li>
+                	<li><a href="index17.html">专家论道</a></li>
+                	<li><a href="index18.html">名企精英</a></li>
+                	<li><a href="index19.html">热点话题</a></li>
+                	<li><a href="index20.html">质量·安全</a></li>
+                	<li><a href="lxwm/index.html">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="d-main">
+		<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2206' language='javascript'></script>
+		<div class="clear"></div>    
+ 		<h3 class="list-h3sz list-h3sz1 "><img src="templets/default/images/lh3-bj.jpg">首页>装饰·装修</h3>
+                <div class="logo-right-botm logo-right-botmd">
+               	 	 <marquee scrolldelay="100"><a target="_blank" href="javascript:;">中建一局装饰与北新建材在线签署战略合作协议</a>&nbsp;&nbsp;
+<a target="_blank" href="javascript:;">富思特驰援北京“小汤山”抗击疫情累计捐款捐物110余万元！</a>&nbsp;&nbsp;
+</marquee>
+                </div>
+        
+        <div class="d-main1">
+        	<div class="d-main1-left">
+               	 <h3 class="g-titles g-titles1"><a target="_blank" href='javascript:;'>行业资讯</a></h3>
+                  <ul class="s-xins j-xins  g-main4a d-main4a">
+					<li><span>03-05</span>·<a target="_blank" href="javascript:;">中建一局装饰与北新建材在线签署</a></li>
+<li><span>02-25</span>·<a target="_blank" href="javascript:;">富思特驰援北京“小汤山”抗击疫</a></li>
+<li><span>02-20</span>·<a target="_blank" href="javascript:;">防疫、施工两手抓 金螳螂美兰机</a></li>
+<li><span>02-19</span>·<a target="_blank" href="javascript:;">碧桂园捐赠价值2000多万医疗设备</a></li>
+<li><span>02-15</span>·<a target="_blank" href="javascript:;">北新建材全套龙牌产品驰援“宁夏</a></li>
+<li><span>02-13</span>·<a target="_blank" href="javascript:;">河北文安：装配式集成房屋驰援抗</a></li>
+<li><span>12-25</span>·<a target="_blank" href="javascript:;">A.O.史密斯“零感空间”家装设计</a></li>
+<li><span>12-16</span>·<a target="_blank" href="javascript:;">金螳螂：重创新、探新路、寻突破</a></li>
+<li><span>12-13</span>·<a target="_blank" href="javascript:;">“智慧城市,建筑智造” -- 天华观</a></li>
+
+                    </ul>
+            </div>
+        	<div class="d-main1-center">
+            
+                <div id="KinSlideshow" style="visibility:hidden;">
+				<a target="_blank" href="javascript:;"><img src="/uploads/allimg/200220/1-200220121102K4.jpg" alt="防疫、施工两手抓 金螳螂美兰机场航站楼" width="432" height="288"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/200213/1-200213154RG45.jpg" alt="河北文安：装配式集成房屋驰援抗“疫”" width="432" height="288"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/191212/1-191212095206130.jpg" alt="金螳螂幕墙荣获 “改革开放四十周年行业" width="432" height="288"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/191202/1-19120211030XH.jpg" alt="蛋壳公寓率先实现上海市住房租赁行业实" width="432" height="288"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/191125/17-191125105I93G.jpg" alt="2019年国家优质工程奖揭晓 金螳螂喜获丰" width="432" height="288"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/190814/1-1ZQ41F512257.jpg" alt="【金螳螂艺术】蓝色海洋的礼赞——山东" width="432" height="288"></a>
+
+                </div>
+            
+            </div>
+       	  <div class="d-main1-right">
+               	 <h3 class="g-titles g-titles1"><a target="_blank" href='javascript:;'>业主装修</a></h3>
+     			 <ul class="s-xins s-xins1 d-xinsa1 ">
+                    <li>·<a target="_blank" href="javascript:;">绕开装修误区 给孩子一个安全儿</a></li>
+<li>·<a target="_blank" href="javascript:;">315装修维权 中装新网教您挑战家</a></li>
+<li>·<a target="_blank" href="javascript:;">“感谢客户 伴我成长”东易日盛</a></li>
+<li>·<a target="_blank" href="javascript:;">穷看厅堂富看厨房 吃货们必看的</a></li>
+<li>·<a target="_blank" href="javascript:;">装修“避雷针” 家装吊顶常见的</a></li>
+<li>·<a target="_blank" href="javascript:;">婚房设计避免俗气的几大技巧</a></li>
+
+                </ul>
+            	<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2207' language='javascript'></script>
+            </div>
+        </div>
+  		<div class="main3">
+            <h3 class="s-titles"><a target="_blank" href='javascript:;'>精品展示</a></h3>
+            
+            <div class="warp">
+                <img src="templets/default/images/sprite.png" id="leftWarp"><img src="templets/default/images/sprite1.png" id="rightWarp">
+                <div class="showWarp" id="showArea">
+                    <div class="all" id="all">
+					<a target="_blank" href="javascript:;"><img src="/uploads/allimg/150917/17-15091G5404VW.jpg" alt="艾利丹尼森推出用于室内空间的新型室内" title="艾利丹尼森推出用于室内空间的新型室内" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/141105/17-141105135404109.jpg" alt="Hotel Plus酒店样板房品鉴活动四月巡礼" title="Hotel Plus酒店样板房品鉴活动四月巡礼" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130918/16-13091Q1330YS-lp.jpg" alt="开放式家装设计 木质风格公寓装修" title="开放式家装设计 木质风格公寓装修" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130910/16-13091009244AX.jpg" alt="轻装修重装饰 追求品质的家居生活" title="轻装修重装饰 追求品质的家居生活" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130820/16-130R0091000144.jpg" alt="60平小户型装修推荐 合理设计家装" title="60平小户型装修推荐 合理设计家装" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/allimg/130729/09460T453-0-lp.jpg" alt="78平方米公寓的原木时尚 家的温馨味道" title="78平方米公寓的原木时尚 家的温馨味道" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/allimg/130726/103K111a-0.jpg" alt="民族风情的美丽家居 86平米满满都是爱" title="民族风情的美丽家居 86平米满满都是爱" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/allimg/130726/1016333c6-0.jpg" alt="44平北欧单身公寓 阳光满满且花儿朵朵" title="44平北欧单身公寓 阳光满满且花儿朵朵" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/allimg/130726/1020054Y4-0.jpg" alt="北欧加日式的一套家居 舒适自然最重要" title="北欧加日式的一套家居 舒适自然最重要" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/allimg/130726/1009391415-0.jpg" alt="浪漫的家居设计 清新风小资情调三居室" title="浪漫的家居设计 清新风小资情调三居室" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/allimg/130726/1003302226-5.jpg" alt="小户型有大智慧 功能齐全的46平米空间设" title="小户型有大智慧 功能齐全的46平米空间设" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/allimg/130726/094Z155I-1.jpg" alt="16套百平家装修案例 新婚夫妻装修参考" title="16套百平家装修案例 新婚夫妻装修参考" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/allimg/130726/095G22427-0-lp.jpg" alt="赏纽约由卡拉室内设计 明亮的现代居室" title="赏纽约由卡拉室内设计 明亮的现代居室" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130724/16-130H4100HBV.jpg" alt="英式家具中国报告：中国首份风格派报告" title="英式家具中国报告：中国首份风格派报告" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/130724/16-130H4095K4463.jpg" alt="实木客户递增100%，壹品装饰剑指定制整装" title="实木客户递增100%，壹品装饰剑指定制整装" width="166" height="125"></a>
+
+                    </div>
+                </div>
+            </div>
+			<script type="text/javascript">
+            var allDl=document.getElementById("all")//获取所所有图片的ID
+            var showArea=document.getElementById("showArea")//找到控制滚动条的id
+            var btnLeft=document.getElementById("leftWarp")
+            var btnRight=document.getElementById("rightWarp")
+            var buffer=0
+            var num=0;
+            btnLeft.onclick=function(){
+                num-=945;
+                btnRight.src="http://www.chinajsxx.com/templets/default/images/sprite1.png"
+                if(num<=0){
+                    num=0
+                    this.src="http://www.chinajsxx.com/templets/default/images/spritehover.png"
+                }
+            }
+            btnRight.onclick=function(){
+                num+=945;
+                btnLeft.src="http://www.chinajsxx.com/templets/default/images/sprite.png"
+                
+                if(num>=1890){
+                    num=1890
+                    this.src="http://www.chinajsxx.com/templets/default/images/sprite1hover.png"
+                }
+            }
+            function setArea(){
+                if(num<buffer){
+                    w=Math.floor(0.1*(num-buffer))
+                }else{
+                    w=Math.ceil(0.1*(num-buffer))
+                }
+                buffer+=w;
+                showArea.scrollLeft=buffer;	
+            }
+            setInterval(setArea,1)
+            </script>
+            
+        </div>
+         <div class="d-main4">
+         	<div class="d-main4-left">
+               	 <h3 class="g-titles g-titles1"><a target="_blank" href='javascript:;'>行业标准</a></h3>
+     			 <ul class="s-xins s-xins1 d-xinsa1 ">
+                    <li>·<a target="_blank" href="javascript:;">地板市场上产品环保认证缺乏政策</a></li>
+<li>·<a target="_blank" href="javascript:;">家居装修需谨慎 家装业旺季来临</a></li>
+<li>·<a target="_blank" href="javascript:;">中国居家产业发展论坛29日在蓉举</a></li>
+<li>·<a target="_blank" href="javascript:;">家具市场暗藏“绿色”陷阱</a></li>
+<li>·<a target="_blank" href="javascript:;">从“深圳样板房”到持续的创新力</a></li>
+<li>·<a target="_blank" href="javascript:;">家装行业转型绿色经济</a></li>
+<li>·<a target="_blank" href="javascript:;">“中国制造”合格率 20年来大幅提</a></li>
+
+                </ul>
+            </div>
+       	   <div class="d-main4-left d-main4-left1">
+           	 <h3 class="s-titles g-titles g-titles1"><a target="_blank" href='javascript:;'><span>质量</span><img src="templets/default/images/s-dian.jpg">维权</a></h3>
+     			 <ul class="s-xins s-xins1 d-xinsa1 ">
+                    <li>·<a target="_blank" href="javascript:;">家居建材消费投诉不断升温</a></li>
+<li>·<a target="_blank" href="javascript:;">品牌商家更具质量服务保障 注意</a></li>
+<li>·<a target="_blank" href="javascript:;">只需4个工作日装修施工许可证拿</a></li>
+<li>·<a target="_blank" href="javascript:;">装修也有十大经典骗人语录 看看</a></li>
+<li>·<a target="_blank" href="javascript:;">又有五人爆料被沈阳天成装饰骗钱</a></li>
+<li>·<a target="_blank" href="javascript:;">怎么个赔法才合理？</a></li>
+<li>·<a target="_blank" href="javascript:;">26种室内装饰装修材料不合格 北京</a></li>
+
+                </ul>
+           </div>
+         	<div class="d-main4-left">
+               	 <h3 class="g-titles g-titles1"><a target="_blank" href='javascript:;'>设计交流</a></h3>
+     			 <ul class="s-xins s-xins1 d-xinsa1 ">
+                    <li>·<a target="_blank" href="javascript:;">杜兹设计获2019《ELLE DECORATION 家居</a></li>
+<li>·<a target="_blank" href="javascript:;">中国设计师郑见伟用直播跨国推广</a></li>
+<li>·<a target="_blank" href="javascript:;">Perkins+Will将负责设计苏州市科技馆</a></li>
+<li>·<a target="_blank" href="javascript:;">蜗居变形记 小户型如何巧变大h</a></li>
+<li>·<a target="_blank" href="javascript:;">借翟师傅的光，我上央视了</a></li>
+<li>·<a target="_blank" href="javascript:;">设计师的设计灵感</a></li>
+<li>·<a target="_blank" href="javascript:;">安吉举办竹材装饰装修推广与应用</a></li>
+
+                </ul>
+            </div>
+         	<div class="d-main4-right">
+       	    	<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2208' language='javascript'></script>
+       	    	<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2209' language='javascript'></script>
+            </div>
+         </div>
+		<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2210' language='javascript'></script>
+		<div class="clear"></div>    
+      <div class="d-main5">
+        <h3 class="g-titles g-titles1"><a target="_blank" href='javascript:;'>品牌设计</a></h3>
+          
+		  <dl>
+           	  <dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/141230/17-141230155444559.jpg" alt="生活家·巴" title="生活家·巴" width="120" height="90"></a></dt>
+              <dd><a target="_blank" href="javascript:;">生活家·巴</a></dd>
+          </dl>
+<dl>
+           	  <dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/141230/17-141230154939423.jpg" alt="装修样版间" title="装修样版间" width="120" height="90"></a></dt>
+              <dd><a target="_blank" href="javascript:;">装修样版间</a></dd>
+          </dl>
+<dl>
+           	  <dt><a target="_blank" href="javascript:;"><img src="uploads/131010/16-13101016450VQ.jpg" alt="金秋装修正" title="金秋装修正" width="120" height="90"></a></dt>
+              <dd><a target="_blank" href="javascript:;">金秋装修正</a></dd>
+          </dl>
+<dl>
+           	  <dt><a target="_blank" href="javascript:;"><img src="uploads/131010/16-131010163242F1.jpg" alt="上海别墅装" title="上海别墅装" width="120" height="90"></a></dt>
+              <dd><a target="_blank" href="javascript:;">上海别墅装</a></dd>
+          </dl>
+<dl>
+           	  <dt><a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3144445130.jpg" alt="福州装修设" title="福州装修设" width="120" height="90"></a></dt>
+              <dd><a target="_blank" href="javascript:;">福州装修设</a></dd>
+          </dl>
+<dl>
+           	  <dt><a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3142255338.jpg" alt="【品牌在江" title="【品牌在江" width="120" height="90"></a></dt>
+              <dd><a target="_blank" href="javascript:;">【品牌在江</a></dd>
+          </dl>
+<dl>
+           	  <dt><a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3115604I5.jpg" alt="全筑装饰抓" title="全筑装饰抓" width="120" height="90"></a></dt>
+              <dd><a target="_blank" href="javascript:;">全筑装饰抓</a></dd>
+          </dl>
+<dl>
+           	  <dt><a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3113A2432.jpg" alt="业之峰装饰" title="业之峰装饰" width="120" height="90"></a></dt>
+              <dd><a target="_blank" href="javascript:;">业之峰装饰</a></dd>
+          </dl>
+
+		  
+        </div>
+        <div class="clear"></div>
+		<div class="d-main4">
+         	<div class="d-main4-left">
+               	 <h3 class="g-titles g-titles1"><a target="_blank" href='javascript:;'>装修奖项</a></h3>
+     			 <ul class="s-xins s-xins1 d-xinsa1 ">
+                    <li>·<a target="_blank" href="javascript:;">金螳螂荣获“江苏慈善奖”和“苏</a></li>
+<li>·<a target="_blank" href="javascript:;">中建五局装饰公司获2014年度（第</a></li>
+<li>·<a target="_blank" href="javascript:;">不二幕墙获“建筑业AAA信用企业”</a></li>
+<li>·<a target="_blank" href="javascript:;">中建五局装饰获评长沙市建筑业“</a></li>
+<li>·<a target="_blank" href="javascript:;">山水揽获全国住宅装饰装修行业三</a></li>
+<li>·<a target="_blank" href="javascript:;">上海保利广场室内精装修工程喜获</a></li>
+<li>·<a target="_blank" href="javascript:;">中国建筑业协会 关于开展 “鸿翔</a></li>
+
+                </ul>
+            </div>
+       	   <div class="d-main4-left d-main4-left1">
+               	 <h3 class="g-titles g-titles1"><a target="_blank" href='javascript:;'>招标咨询</a></h3>
+     			 <ul class="s-xins s-xins1 d-xinsa1 ">
+                    <li>·<a target="_blank" href="javascript:;">机关办公楼空置房装修工程施工招</a></li>
+<li>·<a target="_blank" href="javascript:;">同里中学异地新建装饰工程招标公</a></li>
+<li>·<a target="_blank" href="javascript:;">九江开发区医院综合楼装修工程招</a></li>
+<li>·<a target="_blank" href="javascript:;">商丘银行长征支行装饰工程招标</a></li>
+<li>·<a target="_blank" href="javascript:;">商丘银行胜利支行装饰工程招标</a></li>
+<li>·<a target="_blank" href="javascript:;">北京市新闻出版干部学校装修维修</a></li>
+<li>·<a target="_blank" href="javascript:;">漯河市儿童福利院综合楼室内装修</a></li>
+
+                </ul>
+           </div>
+         	<div class="d-main4-left">
+               	 <h3 class="g-titles g-titles1"><a target="_blank" href='javascript:;'>装修百科</a></h3>
+     			 <ul class="s-xins s-xins1 d-xinsa1 ">
+                    <li>·<a target="_blank" href="javascript:;">装修刷漆 or 喷漆，看完这7个问题</a></li>
+<li>·<a target="_blank" href="javascript:;">旧墙面翻新要注意哪些地方 北京</a></li>
+<li>·<a target="_blank" href="javascript:;">做好准备，无惧秋霾！</a></li>
+<li>·<a target="_blank" href="javascript:;">欧普照明浅析《中国建筑装饰蓝皮</a></li>
+<li>·<a target="_blank" href="javascript:;">新房除甲醛五招搞定 速除有害气</a></li>
+<li>·<a target="_blank" href="javascript:;">厨房装修必备：抽油烟机的选择与</a></li>
+<li>·<a target="_blank" href="javascript:;">慧眼识建材 带你揭开劣质木地板</a></li>
+
+                </ul>
+            </div>
+         	<div class="d-main4-right">
+				<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2211' language='javascript'></script>
+       	    	<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2212' language='javascript'></script>
+       	    	
+            </div>
+         </div>  
+         <div class="d-main6">
+         
+<div class="dsfe">
+    <div class="tabs tabs1">
+        <ul class="tabsTit tabsTita">
+            <li class="tabsTab tabsHover"><a target="_blank" href='javascript:;'>时尚家居</a></li>
+            <li class="tabsTab"><a target="_blank" href='javascript:;'>陶瓷卫浴</a></li>
+            <li class="tabsTab"><a target="_blank" href='javascript:;'>门窗地板</a></li>
+            <li class="tabsTab"><a target="_blank" href='javascript:;'>涂料壁纸</a></li>
+        </ul>
+        <ul class="tabsCon tabsCons">
+            <li class="tabsList tabsTita">
+				<a target="_blank" href="javascript:;"><img src="/uploads/allimg/150204/17-150204105204c4.jpg" width="268" height="199" class="tabsTita-left" alt="美式家具之王霍华德-米勒进驻上" title="美式家具之王霍华德-米勒进驻上"></a>
+
+                <ul class="tabsTita-right">
+					<li>·<a target="_blank" href="javascript:;">美式家具之王霍华德-米勒进驻上海米格天地</a></li>
+<li>·<a target="_blank" href="javascript:;">风口将关闭 家具O2O将进入深度整合期</a></li>
+<li>·<a target="_blank" href="javascript:;">家具市场:寒冷已成现实</a></li>
+<li>·<a target="_blank" href="javascript:;">卖场租金飞涨 谁是解救家具企业的救世主</a></li>
+<li>·<a target="_blank" href="javascript:;">进口家具品牌多为“挂羊头卖狗肉”</a></li>
+<li>·<a target="_blank" href="javascript:;">产业整合难题待解 智能家居“虚”火太旺</a></li>
+<li>·<a target="_blank" href="javascript:;">中国国际酒店家具展：开启2014酒店家具行业活</a></li>
+
+
+                	<li class="risfw"><a href="#" style=" color: #b80000;">了解更多>></a></li>
+                </ul>
+				<div class="tabsTita-center">
+					<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="/uploads/allimg/141230/17-141230155444559.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">生活家·巴</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="/uploads/allimg/141230/17-141230154939423.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">装修样版间</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/131010/16-13101016450VQ.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">金秋装修正</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/131010/16-131010163242F1.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">上海别墅装</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3144445130.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">福州装修设</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3142255338.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">【品牌在江</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3115604I5.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">全筑装饰抓</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3113A2432.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">业之峰装饰</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3113141232.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">以设计装修</a></dd>
+                    </dl>
+
+                </div>
+            </li>
+            
+            
+            <li class="tabsList tabsTita">
+				<a target="_blank" href="javascript:;"><img src="/uploads/allimg/191206/17-191206104306143.jpg" width="268" height="199" class="tabsTita-left" alt="恒洁在中国住宅产业年会揽获“金" title="恒洁在中国住宅产业年会揽获“金"></a>
+
+                <ul class="tabsTita-right">
+                	<li>·<a target="_blank" href="javascript:;">恒洁在中国住宅产业年会揽获“金马桶”等卫浴</a></li>
+<li>·<a target="_blank" href="javascript:;">威尔斯陶瓷正式登陆央视频道 强强联手展现品</a></li>
+<li>·<a target="_blank" href="javascript:;">中国卫浴榜出炉：恒洁卫浴七度蝉联＂中国十大</a></li>
+<li>·<a target="_blank" href="javascript:;">情系中国智能卫浴制造：恒洁谢伟藩与吴晓波佛</a></li>
+<li>·<a target="_blank" href="javascript:;">定制盲目跟风肆无忌惮 卫浴行业艰难前行</a></li>
+<li>·<a target="_blank" href="javascript:;">面对困境 卫浴企业还需以品牌开辟市场</a></li>
+<li>·<a target="_blank" href="javascript:;">互联网大潮下家居品牌的渠道变革与创新</a></li>
+
+                	<li class="risfw"><a href="#" style=" color: #b80000;">了解更多>></a></li>
+                </ul>
+				<div class="tabsTita-center">
+					<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="/uploads/allimg/141230/17-141230155444559.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">生活家·巴</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="/uploads/allimg/141230/17-141230154939423.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">装修样版间</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/131010/16-13101016450VQ.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">金秋装修正</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/131010/16-131010163242F1.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">上海别墅装</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3144445130.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">福州装修设</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3142255338.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">【品牌在江</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3115604I5.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">全筑装饰抓</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3113A2432.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">业之峰装饰</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3113141232.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">以设计装修</a></dd>
+                    </dl>
+
+                </div>
+            </li>
+
+            <li class="tabsList tabsTita">
+				<a target="_blank" href="javascript:;"><img src="/uploads/allimg/160730/1-160I0202K3638.jpg" width="268" height="199" class="tabsTita-left" alt="【出大事了】Poll-tex® 浦尔泰防雾" title="【出大事了】Poll-tex® 浦尔泰防雾"></a>
+
+                <ul class="tabsTita-right">
+                	<li>·<a target="_blank" href="javascript:;">【出大事了】Poll-tex® 浦尔泰防雾霾窗纱惊现中</a></li>
+<li>·<a target="_blank" href="javascript:;">门窗幕墙行业知名品牌广告语“大汇赞”——简</a></li>
+<li>·<a target="_blank" href="javascript:;">家居大咖做客新浪家居 探寻地板企业逆中求胜</a></li>
+<li>·<a target="_blank" href="javascript:;">市场进入“大鱼吃小鱼 ”时代</a></li>
+<li>·<a target="_blank" href="javascript:;">以次充好换货--店家销售地板竟然＂狸猫换太子</a></li>
+<li>·<a target="_blank" href="javascript:;">信息化浪潮纷争之下--地板企业如何处理危机</a></li>
+<li>·<a target="_blank" href="javascript:;">木门企业不要让“跟风和抄袭”毁了前程</a></li>
+
+                	<li class="risfw"><a href="#" style=" color: #b80000;">了解更多>></a></li>
+                </ul>
+				<div class="tabsTita-center">
+					<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="/uploads/allimg/141230/17-141230155444559.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">生活家·巴</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="/uploads/allimg/141230/17-141230154939423.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">装修样版间</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/131010/16-13101016450VQ.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">金秋装修正</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/131010/16-131010163242F1.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">上海别墅装</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3144445130.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">福州装修设</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3142255338.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">【品牌在江</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3115604I5.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">全筑装饰抓</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3113A2432.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">业之峰装饰</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3113141232.jpg" width="90" height="90"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">以设计装修</a></dd>
+                    </dl>
+
+                </div>
+            </li>
+            
+            
+            
+            <li class="tabsList tabsTita">
+				<a target="_blank" href="javascript:;"><img src="/uploads/allimg/191128/17-19112Q114124J.jpg" width="268" height="199" class="tabsTita-left" alt="三棵树荣膺“2019影响中国家居生" title="三棵树荣膺“2019影响中国家居生"></a>
+
+                <ul class="tabsTita-right">
+                	<li>·<a target="_blank" href="javascript:;">三棵树荣膺“2019影响中国家居生活方式品牌榜</a></li>
+<li>·<a target="_blank" href="javascript:;">众多软装品牌参加上海酒店工程与设计展览会</a></li>
+<li>·<a target="_blank" href="javascript:;">艾仕得华佳涂料荣膺澳美铝业“优秀合作伙伴”</a></li>
+<li>·<a target="_blank" href="javascript:;">蓝色厨房 涂料壁纸软装全面出击</a></li>
+<li>·<a target="_blank" href="javascript:;">儿童涂料尚无国家统一规范 购买时应注意查验</a></li>
+<li>·<a target="_blank" href="javascript:;">谁能掘到2015涂料行业的最大一桶金</a></li>
+<li>·<a target="_blank" href="javascript:;">木制品涂料水性化论坛在济南召开</a></li>
+
+                	<li class="risfw"><a href="#" style=" color: #b80000;">了解更多>></a></li>
+                </ul>
+				<div class="tabsTita-center">
+					
+					<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="/uploads/allimg/141230/17-141230155444559.jpg" width="90" height="90" alt="生活家·巴" title="生活家·巴"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">生活家·巴</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="/uploads/allimg/141230/17-141230154939423.jpg" width="90" height="90" alt="装修样版间" title="装修样版间"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">装修样版间</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/131010/16-13101016450VQ.jpg" width="90" height="90" alt="金秋装修正" title="金秋装修正"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">金秋装修正</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/131010/16-131010163242F1.jpg" width="90" height="90" alt="上海别墅装" title="上海别墅装"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">上海别墅装</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3144445130.jpg" width="90" height="90" alt="福州装修设" title="福州装修设"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">福州装修设</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3142255338.jpg" width="90" height="90" alt="【品牌在江" title="【品牌在江"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">【品牌在江</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3115604I5.jpg" width="90" height="90" alt="全筑装饰抓" title="全筑装饰抓"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">全筑装饰抓</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3113A2432.jpg" width="90" height="90" alt="业之峰装饰" title="业之峰装饰"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">业之峰装饰</a></dd>
+                    </dl>
+<dl class="tab-dls">
+                    	<dt> <a target="_blank" href="javascript:;"><img src="uploads/130723/16-130H3113141232.jpg" width="90" height="90" alt="以设计装修" title="以设计装修"></a></dt>
+                        <dd> <a target="_blank" href="javascript:;">以设计装修</a></dd>
+                    </dl>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="gunsfr">
+	<div class="border">
+    	<a target="_blank" href='javascript:;'><img src="templets/default/images/sdfsadf.gif" width="46" height="161" class="dfhi"></a>
+		<div id="demoA" class="focusMain">
+	   <a class="focusBtn focusPrev" href="javascript:;"></a>
+			<div class="focusArea">
+                <div class="focusCon">
+                    
+					<div class="item">
+                        <a target="_blank" href="javascript:;"><img src="/uploads/allimg/141028/17-14102Q03612552.jpg" alt="玄关装修小妙招 百变造型扩张小户型" title="玄关装修小妙招 百变造型扩张小户型" width='177' height='189'></a>
+                    </div>
+<div class="item">
+                        <a target="_blank" href="javascript:;"><img src="uploads/130821/16-130R1100304b0.jpg" alt="嘉禾网上做家装 尊享设计费6折超值套餐" title="嘉禾网上做家装 尊享设计费6折超值套餐" width='177' height='189'></a>
+                    </div>
+<div class="item">
+                        <a target="_blank" href="javascript:;"><img src="uploads/130821/16-130R109412b36.jpg" alt="颐高公馆精装样板间开放" title="颐高公馆精装样板间开放" width='177' height='189'></a>
+                    </div>
+<div class="item">
+                        <a target="_blank" href="javascript:;"><img src="uploads/130722/16-130H215064I55.jpg" alt="星艺装饰：绿色设计 避免过度装修【图片" title="星艺装饰：绿色设计 避免过度装修【图片" width='177' height='189'></a>
+                    </div>
+<div class="item">
+                        <a target="_blank" href="javascript:;"><img src="uploads/130722/16-130H2154145D1.jpg" alt="给家居点颜色看看 用色彩展示客厅背景墙" title="给家居点颜色看看 用色彩展示客厅背景墙" width='177' height='189'></a>
+                    </div>
+<div class="item">
+                        <a target="_blank" href="javascript:;"><img src="uploads/130722/16-130H2160050536.jpg" alt="《菜鸟装修秘籍》防水特刊之防水材料介" title="《菜鸟装修秘籍》防水特刊之防水材料介" width='177' height='189'></a>
+                    </div>
+<div class="item">
+                        <a target="_blank" href="javascript:;"><img src="uploads/130722/16-130H215211N35.jpg" alt="电视背景墙装修效果图大全2013图片之瓷砖" title="电视背景墙装修效果图大全2013图片之瓷砖" width='177' height='189'></a>
+                    </div>
+<div class="item">
+                        <a target="_blank" href="javascript:;"><img src="uploads/130722/16-130H214450S21-lp.jpg" alt="来奉泉装饰 享超值装修体验【图片】" title="来奉泉装饰 享超值装修体验【图片】" width='177' height='189'></a>
+                    </div>
+
+                </div>
+            </div>
+            <a class="focusBtn focusNext" href="javascript:;"></a>
+        </div>
+	</div>
+    
+    
+    </div>
+</div>
+         
+         </div>      
+      <div class="d-main7">
+        <h3 class="g-titles g-titles1"><a target="_blank" href='javascript:;'>优秀设计师</a></h3>
+		
+		<dl>
+           	 <dt><a target="_blank" href="javascript:;"><img src="uploads/allimg/180918/1-1P91Q61S54U.jpg" width="176" height="189" alt="王晓龙：十" title="王晓龙：十"></a></dt>
+             <dd><a target="_blank" href="javascript:;">王晓龙：十</a></dd>
+          </dl>
+<dl>
+           	 <dt><a target="_blank" href="javascript:;"><img src="uploads/allimg/160308/17-16030PT61RM.jpg" width="176" height="189" alt="香港郑中设" title="香港郑中设"></a></dt>
+             <dd><a target="_blank" href="javascript:;">香港郑中设</a></dd>
+          </dl>
+<dl>
+           	 <dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/160126/17-160126102210960.jpg" width="176" height="189" alt="设计界大师" title="设计界大师"></a></dt>
+             <dd><a target="_blank" href="javascript:;">设计界大师</a></dd>
+          </dl>
+<dl>
+           	 <dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/141017/17-14101G62J9E4.jpg" width="176" height="189" alt="陈颖：风吹" title="陈颖：风吹"></a></dt>
+             <dd><a target="_blank" href="javascript:;">陈颖：风吹</a></dd>
+          </dl>
+<dl>
+           	 <dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/141015/17-141015093S22D.png" width="176" height="189" alt="潮流一定有" title="潮流一定有"></a></dt>
+             <dd><a target="_blank" href="javascript:;">潮流一定有</a></dd>
+          </dl>
+
+
+        </div>
+             
+		<div class="clear"></div>   
+		<!--footer start-->
+		<div class="s-mian11">
+            <h3 class="s-titles">合作企业</h3>
+            <ul class="s-mian11h">
+                
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/1806121141513192.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2004022305506828.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1309021718535950.gif' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1309021724367746.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003141604078500.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003141620346815.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1309061415135506.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1309061420015652.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003141632528824.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1309061437203073.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003141615078291.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003141612069689.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1309061444597920.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1309061511485299.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003141638361047.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003141629209213.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003141556068675.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2003141608427727.jpg' width='88' height='31' border='0'></a> </li>
+				
+            </ul>
+        </div> 
+		</div>
+		<div class="clear"></div>
+		<div class="clear"></div>
+	<div class="footer" style="margin-top:10px;">
+    	<div class="footer-main">
+        	<ul>
+            	<li class="none"><a href="gywm/index.html">关于我们</a></li>
+				<li><a href="lxwm/index.html">联系我们</a></li>
+				<li><a href="kdgg/index.html">刊登广告</a></li>
+				<li><a href="flsm/index.html">法律声明</a></li>
+				<li><a href="index10.html">合作中心</a></li>
+				<li><a href="data/sitemap.html">网站地图</a></li>
+            </ul>
+            <div class="bottom" style='float:left;margin-left:120px;'>
+            	<img src="templets/default/images/footer-logo.jpg">
+                <p class="font-top">Copyright @ 2013 海南建设信息网 版权所有 <a href="javascript:;" target="_blank">
+					备案号:京ICP备20024077号-1</a><br>
+                <a target="_blank" href="byls/index.html"> 法律顾问;山东贯球律师事务所  尹有林律师 </a>&nbsp;&nbsp;<a target="_blank" href="javascript:;"> 技术支持：亿睿鸿翔 QQ：435093332 </a> </p>
+				<p><script src="stat-5319148_5319148_pic.js" language="JavaScript"></script></p>
+            </div>
+			<img src="templets/default/images/weibo.jpg" width='126px' height='103px' style='float:right;'>
+			<img src="templets/default/images/weixin.jpg" width='126px' height='103px' style='float:right;'>
+        </div>
+    </div>
+<!--footer end-->
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254149112'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1254149112' type='text/javascript'%3E%3C/script%3E"));</script>
+
+
+
+    
+</body>
+</html>
+

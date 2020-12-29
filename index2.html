@@ -1,0 +1,555 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>城乡规划_海南建设信息网</title>
+<meta name="keywords" content="城乡规划,城乡规划专业,城乡规划信息,规划布局,城乡建设,规划案例,城乡规划,规划成果,城乡规划,城乡展示">
+<meta name="description" content="城乡规划,是确定一个城市的性质,规模,发展方向以及制订城市中各类建设的总体布局的全面环境安排的城市规划.总体规划.还包括选定规划定额指标,制订该市远,近期目标,及其实施步骤和措施等工作.">
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<link href="templets/default/css/planning.css" rel="stylesheet">
+<script src="templets/default/js/alixixi_jquery.min.js" type="text/javascript"></script>
+<script src="templets/default/js/jquery.KinSlideshow-1.2.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="templets/default/js/Ublue-jQueryTabs-1.1.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("#KinSlideshow").KinSlideshow();
+})
+</script>
+
+<script type="text/javascript">
+$(function(){
+	$(".tabs").UblueTabs(); //默认调用方法
+
+	$(".custom").UblueTabs({ //自定义选项卡区域
+	tabsTit:"customTit", //自定义标签区域
+	tabsTab:"customTab", //自定义标签
+	tabsCon:"customCon", //自定义内容区域
+	tabsList:"customList", //自定义内容列表
+	tabsHover:"customHover", //自定义鼠标点击后样式
+	eventType:"click" //鼠标经过标签切换内容 -- 此处不写则默认为hover事件 当然也可以把这里的click改成hover
+	});
+});
+</script>
+
+
+
+</head>
+
+<body>
+
+	﻿<script>
+function show(){
+var date = new Date(); //日期对象
+var now = "";
+now = date.getFullYear()+"年"; //读英文就行了
+now = now + (date.getMonth()+1)+"月"; //取月的时候取的是当前月-1如果想取当前月+1就可以了
+now = now + date.getDate()+"日";
+now = now + date.getHours()+"时";
+now = now + date.getMinutes()+"分";
+now = now + date.getSeconds()+"秒";
+document.getElementById("nowDiv").innerHTML = now; //div的html是now这个字符串 
+setTimeout("show()",1000); //设置过1000毫秒就是1秒，调用show方法
+}
+</script>
+<div class="s-wrap">
+    	<div class="s-top">	
+            <div class="sq-mains">
+                <p class="s-p1">欢迎光临海南建设信息网！</p>
+                <form>
+				<table width="600" border="0" cellspacing="0" cellpadding="0" height='28px'>
+					<tr>
+					<td height="30" width="450">
+					<iframe width="450" scrolling="no" height="15" frameborder="0" allowtransparency="true" src="javascript:;"></iframe>
+					</td>
+					<td height="30">
+					<span id="localtime" style="margin-left:20px;"></span>
+					<script type="text/javascript">
+					function showLocale(objD)
+					{
+						var str,colorhead,colorfoot;
+						var yy = objD.getYear();
+						if(yy<1900) yy = yy+1900;
+						var MM = objD.getMonth()+1;
+						if(MM<10) MM = '0' + MM;
+						var dd = objD.getDate();
+						if(dd<10) dd = '0' + dd;
+						var hh = objD.getHours();
+						if(hh<10) hh = '0' + hh;
+						var mm = objD.getMinutes();
+						if(mm<10) mm = '0' + mm;
+						var ss = objD.getSeconds();
+						if(ss<10) ss = '0' + ss;
+						var ww = objD.getDay();
+						if  ( ww==0 )  colorhead="<font color=\"#FF0000\">";
+						if  ( ww > 0 && ww < 6 )  colorhead="<font color=\"#373737\">";
+						if  ( ww==6 )  colorhead="<font color=\"#008000\">";
+						if  (ww==0)  ww="星期日";
+						if  (ww==1)  ww="星期一";
+						if  (ww==2)  ww="星期二";
+						if  (ww==3)  ww="星期三";
+						if  (ww==4)  ww="星期四";
+						if  (ww==5)  ww="星期五";
+						if  (ww==6)  ww="星期六";
+						colorfoot="</font>"
+						str = colorhead + yy + "-" + MM + "-" + dd + " " + hh + ":" + mm + ":" + ss + "  " + colorfoot;
+						return(str);
+					}
+					function tick()
+					{
+						var today;
+						today = new Date();
+						document.getElementById("localtime").innerHTML = showLocale(today);
+						window.setTimeout("tick()", 1000);
+					}
+					tick();
+					</script>
+					</td>
+					</tr>
+				</table>
+                </form>
+                <p class="s-p2"><a href="" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.chinajsxx.com');">设为首页</a>&nbsp;&nbsp; <a href="javascript:window.external.AddFavorite('http://www.chinajsxx.com','海南建设信息网')">加入收藏</a></p>
+            </div>
+        </div>
+        <div class="s-logos">
+        	<a href="index.html" target="_blank"><img src="templets/default/images/logo.jpg" class="logo"></a>
+            <div class="logo-right">
+			 <form name="formsearch" action="http://www.chinajsxx.com/plus/search.php">
+                <div class="top-left">
+					<div style='height:60px;'>
+					<input type="hidden" name="kwtype" value="0">
+					<input name="q" type="text" class="forms" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}" onblur="if(this.value==''){this.value='在这里搜索...';}">
+					<button type="submit" class="search-submit">搜索</button>
+					</div>
+                    <p class="s-psh"><span>热门搜索：</span> <a href='plus/search-0_E68B9BE6A087E68A95E6A08.html' target="_blank">招标投标</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">城乡规划</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">工程建设</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">工程机械</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">房地产</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">建筑信息化</a> <a href='plus/search-0_E59F8EE4B9A1E8A784E5889.html' target="_blank">建筑电气</a> </p>
+                </div>
+			</form>
+                <img src="templets/default/images/phones.jpg" class="phones">
+                <div class="logo-right-botm2">
+               	 	 <marquee scrolldelay="100"><a target="_blank" href="55968.html">新纪录！中国重汽年产销商用车突破50万辆</a>&nbsp;&nbsp;
+<a target="_blank" href="55948.html">“十四五”大展宏图：潍柴动力披露再融资方案</a>&nbsp;&nbsp;
+</marquee>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+        	<div class="nav-main">
+            	<a href="index.html"><img src="templets/default/images/nav-sy.jpg" class="sy" title="海南建设信息网"></a>
+                 <ul class="borders">
+                	<li class="te"><a href="index1.html">新闻</a></li>
+                	<li><a href="zhengcefagui/index.html">政策法规</a></li>
+                	<li><a href="">城乡规划</a></li>
+                	<li><a href="index3.html">勘察设计</a></li>
+                	<li><a href="index4.html">招标投标</a></li>
+                	<li><a href="index5.html" class="lettes">工程建设</a></li>
+                	<li><a href="index6.html">工程机械</a></li>
+                	<li><a href="index7.html">房 地 产</a></li>
+                	<li><a href="index8.html">建筑部品</a></li>
+                	<li><a href="index9.html">装饰·装修</a></li>
+                	<li><a href="index10.html">合作中心</a></li>
+                </ul>
+                <ul class="borders bord">
+                	<li class="te"><a href="index11.html">图库</a></li>
+                	<li><a href="index12.html">中国城镇</a></li>
+                	<li><a href="index13.html">环保科技</a></li>
+                	<li><a href="index14.html">基础建设</a></li>
+                	<li><a href="index15.html">建筑电气</a></li>
+                	<li><a href="index16.html">建筑信息化</a></li>
+                	<li><a href="index17.html">专家论道</a></li>
+                	<li><a href="index18.html">名企精英</a></li>
+                	<li><a href="index19.html">热点话题</a></li>
+                	<li><a href="index20.html">质量·安全</a></li>
+                	<li><a href="lxwm/index.html">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+	<div class="pw-main">
+   		<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2305' language='javascript'></script>
+        <div class="clear"></div>
+
+	 		<h3 class="list-h3sz"><img src="templets/default/images/lh3-bj.jpg">首页>城乡规划</h3>
+	    <div class="logo-right-botm logo-right-botmd">
+	        <marquee scrolldelay="100"><a target="_blank" href="javascript:;">“落樱不扫”留住城市之美</a>&nbsp;&nbsp;
+<a target="_blank" href="javascript:;">加大城镇老旧小区改造力度 推动惠民生扩内需</a>&nbsp;&nbsp;
+</marquee>
+	    </div>
+
+        
+        <div class="pw-main1">
+        
+            <div id="KinSlideshow" style="visibility:hidden;">
+			<a target="_blank" href="javascript:;"><img src="/uploads/allimg/201224/1-201224091R2161.jpg" alt="从“走得了”到“走得好”" width="394" height="286"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/201223/1-2012231H015O2.jpg" alt="四川:住房和城乡建设事业阔步迈上新台阶" width="394" height="286"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/201216/1-2012161GJ2413.jpg" alt="桃江景色美" width="394" height="286"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/201113/1-201113193441362.jpg" alt="满城尽现“黄金甲”" width="394" height="286"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/201029/1-201029103U9612.jpg" alt="灾后自救 重建家园" width="394" height="286"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/201026/1-201026093Z0a3.jpg" alt="秀丽风光实力“圈粉”" width="394" height="286"></a>
+
+
+            </div>
+        
+        
+        </div>
+		<div class="s-xin">
+        	<h3 class="s-title"><a href="javascript:;" target="_blank">修通山村路 下好致富棋</a></h3>
+                <p>曾经的重庆彭水苗族土家族自治县鞍子镇干田村，没有一条硬化公路，没有一个支柱产业。如今，全村建成通畅公路20余公里<a href="javascript:;" target="_blank">更多>></a></p>
+
+            <img src="templets/default/images/s-xu.jpg" class="s-fen">
+            <div class="clear"></div>
+            <ul class="s-xins">
+                <li>·<span>10-29</span><a target="_blank" href="javascript:;">灾后自救 重建家园...</a></li>
+<li>·<span>10-26</span><a target="_blank" href="javascript:;">城市脑梗 当前城市大脑面临的困境...</a></li>
+<li>·<span>10-26</span><a target="_blank" href="javascript:;">秀丽风光实力“圈粉”...</a></li>
+<li>·<span>08-28</span><a target="_blank" href="javascript:;">国务院部署约1000亿元财政资金用于灾后恢...</a></li>
+<li>·<span>08-27</span><a target="_blank" href="javascript:;">住建部等部门印发关于开展城市居住社区...</a></li>
+<li>·<span>06-04</span><a target="_blank" href="javascript:;">以“新基建”为着力点推动经济社会高质...</a></li>
+
+                <li class="morea"><a href="javascript:;">了解更多>></a></li>
+            </ul>
+        </div>
+        <div class="pw-guang">
+    		<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2306' language='javascript'></script>
+    		<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2307' language='javascript'></script>
+    		<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2308' language='javascript'></script>
+    		<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2309' language='javascript'></script>
+    	</div>
+        <div class="clear"></div>
+   		<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2310' language='javascript'></script>
+        <div class="pw-main2l">
+        
+		<div class="tabs">
+            <ul class="tabsTit">
+                <h3 class="titlescvb"><img src="templets/default/images/pw-fetgv.jpg"></h3>
+                <li class="tabsTab tabsHover"><a target="_blank" href='cxjs/index.html'>城乡建设</a></li>
+                <li class="tabsTab"><a target="_blank" href='cxfc/index.html'>城乡风采</a></li>
+                <li class="tabsTab"><a target="_blank" href='cxqy/index.html'>城乡企业</a></li>
+            </ul>
+            <ul class="tabsCon">
+                <li class="tabsList">
+                   	<dl class="mainsdf">
+                       	<dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/201022/1-201022113531529.jpg" width="268" height="162"></a></dt>
+                        <dd>由中铁建设集团承建的巴布亚新几内亚新爱尔兰省议会大厦项目日前举行竣工交付仪式。巴新总督达达埃以及当地民众等上万<a href="javascript:;">更多>></a></dd>
+                    </dl>
+
+                     <ul class="s-uls s-uls1dfg">
+					<h3><a target="_blank" href="javascript:;">完善基础设施 优化人居环境</a></h3>
+
+                        <div class="clear"></div>
+                        <li><span>12-11</span>·<a target="_blank" href="javascript:;">内蒙古首条进京高铁进入按图运行试验阶段...</a></li>
+<li><span>12-05</span>·<a target="_blank" href="javascript:;">开通倒计时 京张高铁进入运行试验阶段...</a></li>
+<li><span>09-17</span>·<a target="_blank" href="javascript:;">四川调整高速公路网规划 路线增加4100公里...</a></li>
+<li><span>02-20</span>·<a target="_blank" href="javascript:;">城市绿变 常州武进绿建区探路先行...</a></li>
+<li><span>08-15</span>·<a target="_blank" href="javascript:;">极贫村崛起的绿色传奇...</a></li>
+<li><span>08-25</span>·<a target="_blank" href="javascript:;">购物中心楼顶种蔬菜 安徽现首个天空农场...</a></li>
+<li><span>04-07</span>·<a target="_blank" href="javascript:;">春  耕...</a></li>
+<li><span>01-23</span>·<a target="_blank" href="javascript:;">申办冬奥会宣讲团走进延庆...</a></li>
+
+                    </ul>
+					<script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2336' language='javascript'></script>
+                </li>
+                <li class="tabsList" style='display: none;'>
+                   	<dl class="mainsdf">
+                       	<dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/201216/1-2012161GJ2413.jpg" width="268" height="162"></a></dt>
+                        <dd>入冬以来，随着气温下降，江西省赣州市全南县桃江河畔的水杉、银杏等叶子逐渐变得黄绿交错、色彩斑斓，宛如一幅幅画卷<a href="javascript:;">更多>></a></dd>
+                    </dl>
+
+                     <ul class="s-uls s-uls1dfg">
+					<h3><a target="_blank" href="javascript:;">人居环境整治激活乡村“美丽经济”</a></h3>
+
+                        <div class="clear"></div>
+                        <li><span>02-26</span>·<a target="_blank" href="javascript:;">中国最适宜居住的五个城市，北上广深没有...</a></li>
+<li><span>05-19</span>·<a target="_blank" href="javascript:;">巴蜀大地麦收忙 中联重科谷王“机团军”上...</a></li>
+<li><span>09-27</span>·<a target="_blank" href="javascript:;">北京园博园举行“花好月圆”中秋游园会...</a></li>
+<li><span>07-15</span>·<a target="_blank" href="javascript:;">中铁十一局杭黄项目祁雄熙应邀参加电影《...</a></li>
+<li><span>11-19</span>·<a target="_blank" href="javascript:;">养肉牛住高楼...</a></li>
+<li><span>11-12</span>·<a target="_blank" href="javascript:;">城市规模新标准破地方特大城市梦...</a></li>
+<li><span>10-15</span>·<a target="_blank" href="javascript:;">粒粒皆辛苦劳动来体会...</a></li>
+<li><span>10-15</span>·<a target="_blank" href="javascript:;">今年农村网购市场规模将达1800亿元...</a></li>
+
+                    </ul>
+                    <script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2337' language='javascript'></script>
+                </li>
+                <li class="tabsList" style='display: none;'>
+					<dl class="mainsdf">
+                       	<dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/151228/1-15122Q12311D9.jpg" width="268" height="162"></a></dt>
+                        <dd>　【建设行业  报道】12月27日，中联重科甘蔗机产能形成暨首批用户交付仪式在芜湖举行，两位来自广西甘蔗主产区的农业合<a href="javascript:;">更多>></a></dd>
+                    </dl>
+
+                     <ul class="s-uls s-uls1dfg">
+					<h3><a target="_blank" href="javascript:;">中联重科公益收割  农民点赞</a></h3>
+
+                        <div class="clear"></div>
+                        <li><span>08-05</span>·<a target="_blank" href="javascript:;">长辛店拟古镇复兴 重现明清风貌...</a></li>
+<li><span>04-25</span>·<a target="_blank" href="javascript:;">讷河力求“六突破”促经济大发展...</a></li>
+<li><span>11-27</span>·<a target="_blank" href="javascript:;">苹果公司发布三款视网膜屏新品 中国大陆首...</a></li>
+<li><span>10-24</span>·<a target="_blank" href="javascript:;">央视批星巴克咖啡暴利反被质疑缺乏财务学...</a></li>
+<li><span>10-24</span>·<a target="_blank" href="javascript:;">万达10天吃掉两家旅行社 国内旅行社迎来并...</a></li>
+<li><span>10-23</span>·<a target="_blank" href="javascript:;">永业：推进城乡一体化的“企业引擎”...</a></li>
+<li><span>10-09</span>·<a target="_blank" href="javascript:;">要规范楼盘命名 也要明确命名权归属...</a></li>
+<li><span>09-24</span>·<a target="_blank" href="javascript:;">丹江口市汉江国际大酒店隆重开业...</a></li>
+
+                    </ul>
+                    <script src='http://www.chinajsxx.com/plus/ad_js.php?aid=2311' language='javascript'></script>
+                </li>
+            </ul>
+        </div>        
+        
+        </div>
+		<div class="pw-main2r">
+            <h3 class="s-titles"><a target="_blank" href='gg/index.html'>公告</a></h3>
+            <ul class="s-uls">
+              <li><span>01-15</span>·<a target="_blank" href="javascript:;">山东济南实现城市基础设施配套费...</a></li>
+<li><span>11-11</span>·<a target="_blank" href="javascript:;">中国到明年铁路网规划将达15万公...</a></li>
+<li><span>03-06</span>·<a target="_blank" href="javascript:;">北京市全面开展新版城市规划 规...</a></li>
+<li><span>06-30</span>·<a target="_blank" href="javascript:;">住建部：加快城市基础设施建设...</a></li>
+
+            </ul>
+			<h3 class="s-titles"><a target="_blank" href='rdzj/index.html'>热点追击</a></h3>
+			
+			<dl class="s-main812">
+              <dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/201224/1-201224091R2161.jpg" width="126px" height="78px"></a></dt>
+              <dd>
+                    <h3><a target="_blank" href="javascript:;">从“走得了”到“走</a></h3>
+                    <p>国务院新闻办公室22日发布《中国交通的可持续发展》白皮书，<a href="javascript:;">更多>></a></p>
+              </dd>
+            </dl>
+
+            <img src="templets/default/images/pw-fen.jpg" width="292" height="2" class="fen">
+            <div class="clear"></div>
+			<ul class="s-uls">
+	 			<li>·<a target="_blank" href="javascript:;">从“走得了”到“走得好”...</a></li>
+<li>·<a target="_blank" href="javascript:;">小区出现病例是否都要封闭管理？专家：...</a></li>
+<li>·<a target="_blank" href="javascript:;">北京轨道交通新机场线开始试运行...</a></li>
+<li>·<a target="_blank" href="javascript:;">助力西安新型智慧城市建设 数字城管迈向...</a></li>
+<li>·<a target="_blank" href="javascript:;">蝉联行业NO.1,  雷沃品牌再获中国品牌年度...</a></li>
+
+            </ul>
+         </div>
+         <div class="clear"></div>
+         <div class="pw-xuan">
+            <h3 class="s-titles"><a target="_blank" href='cxzs/index.html'>城乡展示</a></h3>
+         
+            <div class="warp">
+                <img src="templets/default/images/sprite.png" id="leftWarp"><img src="templets/default/images/sprite1.png" id="rightWarp">
+                <div class="showWarp" id="showArea">
+                    <div class="all" id="all">
+					<a target="_blank" href="javascript:;"><img src="/uploads/allimg/201113/1-201113193441362.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/200929/1-20092ZS030D9.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/200808/17-200PQ2495KD.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/200419/1-2004191S943c5.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/200401/1-2004011A445115.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/200331/1-200331103H4S9.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/200309/1-200309120GW35.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/191217/1-19121GQ209560.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/191206/1-191206141023354.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/191121/1-1911211100061X.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/190404/1-1Z404101531614.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/170215/1-1F215110602224.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="uploads/allimg/140821/17-140R1141212Z5.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/160530/1-160530101550b2.jpg" width="166" height="125"></a>
+<a target="_blank" href="javascript:;"><img src="/uploads/allimg/150705/1-150F51K20SG.jpg" width="166" height="125"></a>
+
+
+                    </div>
+                </div>
+            </div>
+			<script type="text/javascript">
+            var allDl=document.getElementById("all")//获取所所有图片的ID
+            var showArea=document.getElementById("showArea")//找到控制滚动条的id
+            var btnLeft=document.getElementById("leftWarp")
+            var btnRight=document.getElementById("rightWarp")
+            var buffer=0
+            var num=0;
+            btnLeft.onclick=function(){
+                num-=945;
+                btnRight.src="http://www.chinajsxx.com/templets/default/images/sprite1.png"
+                if(num<=0){
+                    num=0
+                    this.src="http://www.chinajsxx.com/templets/default/images/spritehover.png"
+                }
+            }
+            btnRight.onclick=function(){
+                num+=945;
+                btnLeft.src="http://www.chinajsxx.com/templets/default/images/sprite.png"
+                
+                if(num>=1890){
+                    num=1890
+                    this.src="http://www.chinajsxx.com/templets/default/images/sprite1hover.png"
+                }
+            }
+            function setArea(){
+                if(num<buffer){
+                    w=Math.floor(0.1*(num-buffer))
+                }else{
+                    w=Math.ceil(0.1*(num-buffer))
+                }
+                buffer+=w;
+                showArea.scrollLeft=buffer;	
+            }
+            setInterval(setArea,1)
+            </script>
+         
+         
+         </div>
+         <div class="pw-main3l">
+            <h3 class="s-titles"><a target="_blank" href='cxzcfg/index.html'>政策法规</a></h3>
+            <ul class="s-uls">
+				<li>·<a target="_blank" href="javascript:;">省社科联第七次代表大会在肥隆重开幕</a></li>
+<li>·<a target="_blank" href="javascript:;">市建规局召开党风廉政巡查工作动员会</a></li>
+<li>·<a target="_blank" href="javascript:;">农业部：我国良种覆盖率超96%</a></li>
+<li>·<a target="_blank" href="javascript:;">农业部联手国家旅游局推进休闲农业发展</a></li>
+<li>·<a target="_blank" href="javascript:;">国务院决定对非行政许可审批事项进行清理</a></li>
+<li>·<a target="_blank" href="javascript:;">《村庄整治规划编制办法》发布施行</a></li>
+<li>·<a target="_blank" href="javascript:;">中国百万人口以上城市142个 6城市人口超千万</a></li>
+<li>·<a target="_blank" href="javascript:;">专家谈城市群建设:重点是城际合作区域共赢</a></li>
+<li>·<a target="_blank" href="javascript:;">傅光明:深化农村土地制度改革的五点思考</a></li>
+<li>·<a target="_blank" href="javascript:;">工商总局曝光一批严重违法广告</a></li>
+
+            </ul>
+         </div>
+         <div class="pw-main3c">
+         
+            <div class="tabs tabsh">
+                <ul class="tabsTit">
+                    <li class="tabsTab tabsHover"><a target="_blank" href='ghcg/index.html'>规划成果</a></li>
+                    <li class="tabsTab"><a target="_blank" href='csal/index.html'>城市案例</a></li>
+                </ul>
+                <ul class="tabsCon tabsCona">
+                    <li class="tabsList tabsLista">
+                    
+					<dl class="s-main8gr">
+                          <dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/191122/1-1911221AP4L5.jpg" width="152" height="96"></a></dt>
+                          <dd>
+                                <h3><a target="_blank" href="javascript:;">壮丽70年 奋斗新时代</a></h3>
+                                <p>在中华人民共和国成立至今的70年里，民生和居住状况的改善一<a href="javascript:;">更多>></a></p>
+                          </dd>
+                        </dl>
+
+                        <ul class="s-uls">
+                          	<li>·<a target="_blank" href="javascript:;">数据再创新高印证符合民众的期待...</a></li>
+<li>·<a target="_blank" href="javascript:;">上海迪士尼揭开神秘面纱...</a></li>
+<li>·<a target="_blank" href="javascript:;">动车临时停车为病患创造急救通道...</a></li>
+<li>·<a target="_blank" href="javascript:;">推动世界经济不断迈上新的台阶...</a></li>
+<li>·<a target="_blank" href="javascript:;">城市空间规划 今年用“一张蓝图”...</a></li>
+<li>·<a target="_blank" href="javascript:;">新疆额敏县吾宗布拉克牧场“真金白银”的民生...</a></li>
+
+                        </ul>
+    
+                    </li>
+                    <li class="tabsList tabsLista" style='display: none;'>
+                    
+                       <dl class="s-main8gr">
+                          <dt><a target="_blank" href="javascript:;"><img src="/uploads/allimg/201223/1-2012231H015O2.jpg" width="152" height="96"></a></dt>
+                          <dd>
+                                <h3><a target="_blank" href="javascript:;">四川:住房和城乡建设</a></h3>
+                                <p>“十三五”时期是全面建成小康社会决胜阶段，也是四川省新型<a href="javascript:;">更多>></a></p>
+                          </dd>
+                        </dl>
+
+                        <ul class="s-uls">
+                          	<li>·<a target="_blank" href="javascript:;">王府半岛酒店改造 华丽转身之幕后英雄...</a></li>
+<li>·<a target="_blank" href="javascript:;">建设美丽镇江，山水花园城市...</a></li>
+<li>·<a target="_blank" href="javascript:;">以提升城市品质为目标，开创城乡规划新局面...</a></li>
+<li>·<a target="_blank" href="javascript:;">黑龙江省人大常委会议通过《黑龙江省城乡规划...</a></li>
+<li>·<a target="_blank" href="javascript:;">高力国际协助绿地 摘得澳洲悉尼地块...</a></li>
+<li>·<a target="_blank" href="javascript:;">怀柔村村都将配律师 探索基层调解新路子...</a></li>
+
+                        </ul>
+    
+                    </li>
+                </ul>
+            </div>         
+         
+         </div>
+  		<div class="pw-main3r">
+     		<h3 class="s-titles"><a target="_blank" href='ghrw/index.html'>城乡人物</a></h3>
+			<div class="pw-main3rmin">
+     			<a target="_blank" href="javascript:;"><img src="/uploads/allimg/201216/1-2012161I921T9.jpg" width="134" height="160"></a>
+                <h3><a target="_blank" href="javascript:;">张杰：城市更新改造</a></h3>
+                <p>近日，住房和城乡建设部办公厅印发《关于在城市更新改造中切实加强历史文化保护坚决制止破坏行为的通知》(以下<a href="javascript:;" class='more'>更多>></a></p>
+            </div>
+
+			<ul class="s-uls">
+                 <li>·<a target="_blank" href="javascript:;">探索踪迹勇担当 传承文化孝为先一一记知...</a></li>
+<li>·<a target="_blank" href="javascript:;">画家唐三超...</a></li>
+<li>·<a target="_blank" href="javascript:;">妙笔绘万象 大爱铸真情——著名油画家唐...</a></li>
+<li>·<a target="_blank" href="javascript:;">本周之星、风电郎之“最“冯渊...</a></li>
+
+            </ul>
+  		</div>
+		<div class="clear"></div>
+		<!--footer start-->
+		<div class="s-mian11">
+            <h3 class="s-titles">合作企业</h3>
+            <ul class="s-mian11h">
+                
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2002051741406112.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1308221534116997.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2002101540254203.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1308230956222263.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/1408081503339454.gif' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1309061422413787.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1403111710418364.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1403111714265964.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2002121418107876.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1403111720353420.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1403111723107145.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1403111725067409.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1403111729057084.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1403111731286701.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1403111735366940.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/1405141524401521.jpg' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='/uploads/flink/2002051749484947.png' width='88' height='31' border='0'></a> </li>
+				 
+				<li><a href='javascript:;' target='_blank'><img src='uploads/flink/1405301106552405.jpg' width='88' height='31' border='0'></a> </li>
+				
+            </ul>
+        </div> 
+		</div>
+        <div class="clear"></div>
+		
+		<div class="clear"></div>
+	<div class="footer" style="margin-top:10px;">
+    	<div class="footer-main">
+        	<ul>
+            	<li class="none"><a href="gywm/index.html">关于我们</a></li>
+				<li><a href="lxwm/index.html">联系我们</a></li>
+				<li><a href="kdgg/index.html">刊登广告</a></li>
+				<li><a href="flsm/index.html">法律声明</a></li>
+				<li><a href="index10.html">合作中心</a></li>
+				<li><a href="data/sitemap.html">网站地图</a></li>
+            </ul>
+            <div class="bottom" style='float:left;margin-left:120px;'>
+            	<img src="templets/default/images/footer-logo.jpg">
+                <p class="font-top">Copyright @ 2013 海南建设信息网 版权所有 <a href="javascript:;" target="_blank">
+					备案号:京ICP备20024077号-1</a><br>
+                <a target="_blank" href="byls/index.html"> 法律顾问;山东贯球律师事务所  尹有林律师 </a>&nbsp;&nbsp;<a target="_blank" href="javascript:;"> 技术支持：亿睿鸿翔 QQ：435093332 </a> </p>
+				<p><script src="stat-5319148_5319148_pic.js" language="JavaScript"></script></p>
+            </div>
+			<img src="templets/default/images/weibo.jpg" width='126px' height='103px' style='float:right;'>
+			<img src="templets/default/images/weixin.jpg" width='126px' height='103px' style='float:right;'>
+        </div>
+    </div>
+<!--footer end-->
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254149112'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1254149112' type='text/javascript'%3E%3C/script%3E"));</script>
+
+
+</body>
+</html>

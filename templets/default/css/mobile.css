@@ -1,0 +1,199 @@
+
+html body {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.s-wrap {
+    height: 50px;
+    background-color: #004B8E;
+}
+
+.s-top {
+    display: none;
+}
+
+.logo-right {
+    display: none;
+}
+
+.s-logos {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: -14px;
+}
+
+.s-logos a img {
+    margin: 0;
+    height: 50px;
+}
+
+.logo-tit {
+    display: block !important;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.logo-box {
+    display: none;
+}
+
+.nav {
+    display: none;
+}
+
+/*  */
+.main {
+    width: 100%;
+}
+
+.left1 {
+    width: 100%;
+}
+
+.list-h3sz {
+    width: 100%;
+}
+
+.hot-point {
+    display: none;
+}
+
+.nr img {
+    width: 100% !important;
+    min-height: 100%;
+    height: auto !important;
+    object-fit: contain;
+    float: left;
+}
+
+.nr p {
+    text-indent: 2em;
+    text-align: justify;
+    font-size: 16px !important;
+}
+
+.nr p span{
+    text-indent: 2em;
+    text-align: justify;
+    font-size: 16px !important;
+}
+
+.shangyipian {
+    padding: 20px 10px;
+}
+
+.shangyipian:last-child {
+    display: none;
+}
+
+/*  */
+.postform, .mt1, .commettop {
+    display: none;
+}
+
+.s-mian12 {
+    display: none;
+}
+
+.right1 {
+    display: none;
+}
+
+.s-lan {
+    width: 100%;
+}
+
+/*  */
+.footer {
+    width: 100%;
+    height: 120px;
+    padding-top: 10px;
+}
+
+.footer-main {
+    width: 100%;
+}
+
+.footer-main ul {
+    display: none;
+}
+
+.footer-main .bottom {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 !important;
+    padding: 10px;
+}
+
+.logo-pc {
+    display: none;
+}
+
+.qr-wx, .qr-wb {
+    display: none;
+}
+
+.beian {
+    display: none;
+}
+
+.font-top {
+    display: none;
+}
+
+.font-top-m {
+    width: 100%;
+    display: block !important;
+    text-align: center;
+}
+
+.font-top-m p {
+    text-align: center;
+    line-height: 20px;
+}
+
+.cnzz {
+    display: none;
+}
+
+.s-logos a:visited {
+    color: #fff;
+}
+
+.s-logos a:active {
+    color: #fff;
+}
+
+.top {
+    display: block !important;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, .7);
+    box-sizing: border-box;
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, .18);
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.top:visited {
+    color: #fff;
+}
+
+.top:active {
+    color: #fff;
+}
